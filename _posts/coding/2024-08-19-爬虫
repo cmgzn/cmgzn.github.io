@@ -1,0 +1,62 @@
+#!/user/bin/env python3
+# -*- coding: utf-8 -*-
+import os
+import random
+import time
+
+import requests
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md
+
+# 创建一个目录来保存Markdown文件
+output_dir = 'csdn_articles'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+# 获取目录页面的HTML内容
+url = 'https://blog.csdn.net/hrr397117313/category_12736259.html'
+header = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0",
+    "Cookie": "uuid_tt_dd=10_19970754040-1721266776129-762128; c_segment=0; HMACCOUNT=39D790DF4D597C48; loginbox_strategy=%7B%22taskId%22%3A349%2C%22abCheckTime%22%3A1721266777265%2C%22version%22%3A%22exp11%22%2C%22blog-threeH-dialog-exp11tipShowTimes%22%3A1%2C%22blog-threeH-dialog-exp11%22%3A1721266777265%7D; UserName=weixin_42818780; UserInfo=f84a63ce24c144e8a772183f9c8f6d3c; UserToken=f84a63ce24c144e8a772183f9c8f6d3c; UserNick=DSPOY; AU=1A8; UN=weixin_42818780; BT=1721266818930; p_uid=U010000; fpv=43e44f239e51f35ccd25c8948b1a6ed3; yd_captcha_token=ycvt4kVJoyw8T6+/nVA0JKeYBqpXkuLTPFIYmnJsHDTq315QPUPezATSwSbta3YOSI6/KV6M+i3nfUf87cQ6Pg%3D%3D; SESSION=afa6149b-bb60-42d4-8087-4f9d3e71b3c5; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1720162516,1721266777; _ga=GA1.2.1580460788.1721792932; _ga_7W1N0GEY1P=GS1.1.1721803175.2.0.1721803175.60.0.0; c_dl_prid=-; c_dl_rid=1721974322733_291521; c_dl_fref=https://blog.csdn.net/weixin_42434700/article/details/135146162; c_dl_fpage=/download/weixin_43953649/10860923; c_dl_um=-; firstDie=1; _clck=n6jzmu%7C2%7Cfnv%7C0%7C1660; referrer_search=1722234158880; dc_session_id=10_1722236127182.380430; historyList-new=%5B%5D; fe_request_id=1722236177224_3802_6404911; c_utm_term=%E5%8D%8E%E4%B8%BAod%E6%9C%BA%E8%AF%95%E7%9C%9F%E9%A2%982024%20python; c_utm_relevant_index=3; relevant_index=3; c_utm_medium=distribute.pc_search_result.none-task-blog-2%7Eall%7Efirst_rank_ecpm_v1%7Etimes_rank-3-135625109-null-null.142%5Ev100%5Epc_search_result_base3; dc_sid=63dbd39c41744691a3a4c8f4181bd029; https_ydclearance=6e72a7d0e97d905ef9581b5f-8e5b-4377-b088-c8d409f43489-1722243560; log_Id_click=76; https_waf_cookie=843b7200-1a0e-409f949772824104abb45258d8aa20b1f214; c_pref=default; c_ref=default; c_first_ref=default; c_first_page=https%3A//blog.csdn.net/hrr397117313/article/details/140769834; c_dsid=11_1722238985735.057216; c_page_id=default; log_Id_pv=104; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1722238986; creativeSetApiNew=%7B%22toolbarImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20231011044944.png%22%2C%22publishSuccessImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20240229024608.png%22%2C%22articleNum%22%3A0%2C%22type%22%3A0%2C%22oldUser%22%3Afalse%2C%22useSeven%22%3Atrue%2C%22oldFullVersion%22%3Afalse%2C%22userName%22%3A%22weixin_42818780%22%7D; __gads=ID=2d69caf6ed494254:T=1721266777:RT=1722238986:S=ALNI_MZ9WoutMX0ZiC52tBGNdznaZnWJ3g; __gpi=UID=00000e97de8d4de8:T=1721266777:RT=1722238986:S=ALNI_MaLxC7e_YEpFtKNk3oxGht8j8NbNA; __eoi=ID=be4b17c6d9822377:T=1721266777:RT=1722238986:S=AA-AfjY4VuQkJ1X5toNiWGcoy3HQ; _clsk=11odpsu%7C1722238987563%7C16%7C0%7Cr.clarity.ms%2Fcollect; FCNEC=%5B%5B%22AKsRol-tWRCWBDljGlAgxwlov1NsAbez03N86uIgVhAH4MlM5mMPI2OY4Oyp5dYonHvQE-3Q4e9pWsSbD1O9ZGCGHEiFn4bfeT4PXPR7hXg0jFc-E2pp9Cxg2YPOPotLw4yszk_GEBIUR2tcVI8EzLv95xUR4ntPzg%3D%3D%22%5D%5D; log_Id_view=3231; waf_captcha_marker=dbc859ea97814ecc9135b076c9f67ceffd72c5af7e43c731c733d0bb9579d4ed; dc_tos=shdk5t"
+}
+response = requests.get(url, headers=header, verify=False, timeout=10)
+soup = BeautifulSoup(response.content, 'html.parser')
+print(soup.prettify())  # 输出页面内容，帮助你理解页面结构
+# 提取文章链接
+article_list = soup.find('ul', class_='column_article_list')
+if not article_list:
+    print("No article list found.")
+
+else:
+    article_links = []
+    article_items = article_list.find_all('li')
+    for item in article_items:
+        a_tag = item.find('a')
+        if a_tag and 'href' in a_tag.attrs:
+            link = a_tag['href']
+            article_links.append(link)
+    # 遍历文章链接，获取文章内容并转换为Markdown格式
+    for link in article_links:
+        article_response = requests.get(link, headers=header, verify=False, timeout=10)
+        article_soup = BeautifulSoup(article_response.content, 'html.parser')
+
+        # 提取文章内容
+        article_content = article_soup.find('div', id='content_views')
+        if article_content:
+            # 转换为Markdown格式
+            markdown_content = md(str(article_content))
+
+            # 获取文章标题
+            title = article_soup.find('h1', class_='title-article').text.strip().replace(" ", "").replace("/", "-")[4:]
+
+            # 保存为Markdown文件
+            filename = f"{output_dir}/{title}.md"
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write(markdown_content)
+            print(f"Saved {filename}")
+        else:
+            print(f"No content found for {link}")
+        wait_time = random.uniform(1, 10)
+        time.sleep(wait_time)
+
+    print("All articles have been processed.")
