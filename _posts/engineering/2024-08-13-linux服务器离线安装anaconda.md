@@ -44,57 +44,8 @@ source ~/.bashrc
 
 这时候会发现已经在conda里了。
 
-## 步骤4 配置内网源
-
-如果没有.condarc文件，需要先使用下面命令生成默认配置文件
-
-```
-source ~/.bashrc
-conda config --set show_channel_urls yes
-```
-
-*亲测，可以不这样写，直接`vim ./.condarc`然后把下面的内容粘进去也是完全可以的哈~*
-
-将.condarc中内容修改为
-
-##### 黄区
-
-```
-# channels:
-#   - defaults
-channel_priority: strict
-show_channel_urls: true
-channel_alias: http://10.244.173.8:8088/repository/conda-proxy
-default_channels:
-  - main
-```
-
-也可以试试下面这个
-
-```
-channel_alias: http://10.155.196.240:8088/repository/conda-proxy
-default_channels:
-  - main
-  - r
-```
-
-##### 绿区
-
-```
-# channels:
-#   - defaults
-channel_priority: strict
-show_channel_urls: true
-channel_alias: http://10.155.97.225:8088/repository/conda-proxy
-default_channels:
-  - main
-```
-
-一些小技巧是可以先ping一下，比如`ping 10.155.97.225`，如果能通，那一般这个配置就是好用的。ping都ping不通的话，建议在w3找找有没有其他ip。
 
 **随后就可以愉快的使用了**
 
 参考文档：
-[linux conda安装、配置源 - 潘志的博客 (huawei.com)](https://3ms.huawei.com/km/blogs/details/13349249)
-[新Linux机器食用方法\_pip与conda配置\_pycharm远程连接配置\_yum配置\_gcc安装与升级 - AI特性与推理服务部 - 3MS知识管理社区 (huawei.com)](https://3ms.huawei.com/km/groups/3773717/blogs/details/15307199)
 一些操作借鉴的miniconda的官方文档：[Miniconda — Anaconda documentation](https://docs.anaconda.com/miniconda/)
