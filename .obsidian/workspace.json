@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "863232eafea4901b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6ed7853b65e973d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8e8887be817ee17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/pool/2024-09-04-模板测试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d692c9b55d61d1e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d67f40c0b7bd9ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d80940e85a1e5ed1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1467afe7746385a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e68d852ddb2ca624",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "55bf47326259e19a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0fa023c2a963761",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09d37915f4e98e21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/pool/2024-09-04-模板测试.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c96b9af49f855775",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/pool/2024-09-04-模板测试.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd3e4659de05ae04",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aaa03fbb005a41fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/pool/2024-09-04-模板测试.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f8e8887be817ee17",
+  "lastOpenFiles": [
+    "_template/tech_note.md",
+    "_posts/pool/2024-09-04-模板测试.md",
+    "_template/time_note.md",
+    "_posts/coding/2024-08-13-数据结构知识池.md",
+    "_posts/coding/2024-08-13-json.dumps输出美化版json.md",
+    "_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
+    "_posts/coding/2024-08-13-Python获取类的属性.md",
+    "_posts/coding/2024-08-13-python开多进程.md",
+    "_posts/coding/2024-08-13-python爬虫图解.md",
+    "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
+    "_posts/engineering/2024-09-04-conda重命名.md",
+    "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
+    "_posts/engineering/2024-08-13-linux删除相关.md",
+    "_posts/engineering/2024-08-13-linux软链接相关.md",
+    "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
+    "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
+    "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
+    "_posts/engineering/2024-08-13-脚本内指定GPU部署.md",
+    "README.md",
+    "_posts/2024-08-11-first.md",
+    "未命名.md",
+    "_template"
+  ]
+}

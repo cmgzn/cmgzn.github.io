@@ -2,8 +2,13 @@
 title: transformers.Trainer中wandb的关闭
 author: X
 date: 2024-08-13 09:06:31 +0800
-categories: [engineering]
-tags: [黑科技,模型训练,transformers]
+categories:
+  - engineering
+  - LLM
+tags:
+  - 黑科技
+  - 模型训练
+  - transformers
 ---
 
 # wandb关闭
