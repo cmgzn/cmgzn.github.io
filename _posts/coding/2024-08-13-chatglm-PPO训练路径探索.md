@@ -2,7 +2,7 @@
 title: chatglm-PPO训练路径探索
 author: X
 date: 2024-08-13 09:06:31 +0800
-categories: [coding]
+categories: [coding, LLM]
 tags: [ppo,模型训练]
 ---
 # 背景
