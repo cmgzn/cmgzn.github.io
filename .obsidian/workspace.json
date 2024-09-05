@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_template/tech_note.md",
+                "file": "_posts/pool/2024-09-05-日记.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_template/tech_note.md",
+                "file": "_posts/pool/2024-09-05-日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_template/tech_note.md",
+                "file": "_posts/pool/2024-09-05-日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_template/tech_note.md"
+                "file": "_posts/pool/2024-09-05-日记.md"
               }
             }
           }
@@ -148,11 +149,13 @@
   },
   "active": "f8e8887be817ee17",
   "lastOpenFiles": [
-    "_posts/pool/2024-09-05.md",
+    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
+    "_posts/pool/2024-09-05-日记.md",
+    "_posts/pool/2024-08-13-generator.md",
+    "_posts/pool/2024-09-04-模板测试.md",
+    "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
     "_template/tech_note.md",
     "_template/time_note.md",
-    "_posts/pool/2024-09-04-模板测试.md",
-    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/coding/2024-08-13-数据结构知识池.md",
     "_posts/coding/2024-08-13-json.dumps输出美化版json.md",
     "_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
@@ -161,7 +164,6 @@
     "_posts/coding/2024-08-13-python爬虫图解.md",
     "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
     "_posts/engineering/2024-09-04-conda重命名.md",
-    "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
     "_posts/engineering/2024-08-13-linux删除相关.md",
     "_posts/engineering/2024-08-13-linux软链接相关.md",
     "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
