@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-09-04-模板测试.md",
+                "file": "_template/tech_note.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-04-模板测试.md",
+                "file": "_template/tech_note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-04-模板测试.md",
+                "file": "_template/tech_note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-09-04-模板测试.md"
+                "file": "_template/tech_note.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "f8e8887be817ee17",
   "lastOpenFiles": [
+    "_posts/pool/2024-09-05.md",
     "_template/tech_note.md",
-    "_posts/pool/2024-09-04-模板测试.md",
     "_template/time_note.md",
+    "_posts/pool/2024-09-04-模板测试.md",
+    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/coding/2024-08-13-数据结构知识池.md",
     "_posts/coding/2024-08-13-json.dumps输出美化版json.md",
     "_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
