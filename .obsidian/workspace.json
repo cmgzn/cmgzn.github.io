@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
+                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
+                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
+                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md"
+                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md"
               }
             }
           },
@@ -152,25 +153,24 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "80f516ebdcd05899",
   "lastOpenFiles": [
+    "_posts/pool/2024-09-05-日记.md",
+    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/pool/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
     "assets/img/Dingtalk_20240906103705.jpg",
     "assets/img/Dingtalk_20240906103403.jpg",
     "_posts/pool/2024-08-13-generator.md",
     "_template/tech_note.md",
-    "_posts/pool/2024-09-06.md",
+    "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
     "assets/img/Dingtalk_20240906094335.jpg",
     "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
     "assets/img.md",
     "assets/img",
     "assets/新建文件夹",
-    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
-    "_posts/pool/2024-09-05-日记.md",
     "_posts/pool/2024-09-04-模板测试.md",
     "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
     "_template/time_note.md",
