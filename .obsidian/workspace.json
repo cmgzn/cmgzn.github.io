@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md"
+                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "80f516ebdcd05899",
   "lastOpenFiles": [
+    "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+    "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/pool/2024-09-05-日记.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/pool/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
@@ -165,7 +167,6 @@
     "assets/img/Dingtalk_20240906103403.jpg",
     "_posts/pool/2024-08-13-generator.md",
     "_template/tech_note.md",
-    "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
     "assets/img/Dingtalk_20240906094335.jpg",
     "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
     "assets/img.md",
