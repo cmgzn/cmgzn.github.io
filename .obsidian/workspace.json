@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
+                "file": "_posts/pool/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
+                "file": "_posts/pool/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
+                "file": "_posts/pool/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md"
+                "file": "_posts/pool/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80f516ebdcd05899",
+  "active": "f880743501d2682d",
   "lastOpenFiles": [
-    "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
     "_posts/pool/2024-09-09-linux新机器安装nvidia驱动.md",
+    "_posts/pool/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+    "_posts/pool/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
     "_posts/pool/2024-09-05-日记.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/pool/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
@@ -188,7 +189,6 @@
     "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
     "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
     "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
-    "_posts/engineering/2024-08-13-脚本内指定GPU部署.md",
     "_template"
   ]
 }
