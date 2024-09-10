@@ -41,7 +41,7 @@ tags:
 
 下载地址：[https://huggingface.co/CompVis/stable-diffusion-v-1-4-original](https://link.zhihu.com/?target=https%3A//huggingface.co/CompVis/stable-diffusion-v-1-4-original)
 
-下载 `sd-v1-4.ckpt` 或者 `[sd-v1-4-full-ema.ckpt](https://zhida.zhihu.com/search?q=sd-v1-4-full-ema.ckpt&zhida_source=entity&is_preview=1)`。
+下载 `sd-v1-4.ckpt` 或者 `sd-v1-4-full-ema.ckpt`。
 
 **LoRA模型**
 

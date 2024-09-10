@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
+                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
+                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
+                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md"
+                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md"
               }
             }
           },
@@ -158,11 +157,11 @@
   },
   "active": "80f516ebdcd05899",
   "lastOpenFiles": [
+    "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+    "_posts/pool/2024-09-05-日记.md",
     "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
     "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/engineering/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
-    "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
-    "_posts/pool/2024-09-05-日记.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "assets/img/Dingtalk_20240906103705.jpg",
     "assets/img/Dingtalk_20240906103403.jpg",
