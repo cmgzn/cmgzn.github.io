@@ -2,8 +2,12 @@
 title: windows无cpu启动stable-diffusion-webui
 author: X
 date: 2024-09-06 10:27:50 +0800
-categories: 
+categories:
+  - engineering
+  - win
 tags:
+  - SD
+  - 模型部署
 ---
 # 参考文档
 [【奶奶看了也不会】AI绘画 Mac安装stable-diffusion-webui绘制AI妹子保姆级教程](https://zhuanlan.zhihu.com/p/609620596)
