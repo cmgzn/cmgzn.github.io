@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
+                "file": "_posts/pool/2024-09-05-日记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
+                "file": "_posts/pool/2024-09-05-日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
+                "file": "_posts/pool/2024-09-05-日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md"
+                "file": "_posts/pool/2024-09-05-日记.md"
               }
             }
           },
@@ -157,8 +157,11 @@
   },
   "active": "80f516ebdcd05899",
   "lastOpenFiles": [
-    "_posts/engineering/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+    "_posts/coding/2024-08-13-python爬虫图解.md",
+    "_posts/coding/2024-08-13-python开多进程.md",
+    "_posts/coding/2024-08-13-Python获取类的属性.md",
     "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
+    "_posts/engineering/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
     "_posts/engineering/2024-09-04-conda重命名.md",
@@ -181,9 +184,6 @@
     "_posts/coding/2024-08-13-数据结构知识池.md",
     "_posts/coding/2024-08-13-json.dumps输出美化版json.md",
     "_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
-    "_posts/coding/2024-08-13-Python获取类的属性.md",
-    "_posts/coding/2024-08-13-python开多进程.md",
-    "_posts/coding/2024-08-13-python爬虫图解.md",
     "_posts/engineering/2024-08-13-linux删除相关.md",
     "_posts/engineering/2024-08-13-linux软链接相关.md",
     "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
