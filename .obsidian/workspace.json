@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
+                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
+                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
+                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md"
+                "file": "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md"
               }
             }
           },
@@ -157,23 +157,26 @@
   },
   "active": "80f516ebdcd05899",
   "lastOpenFiles": [
-    "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
-    "_posts/pool/2024-09-05-日记.md",
-    "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
-    "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/engineering/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+    "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
+    "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
+    "_posts/engineering/2024-09-04-conda重命名.md",
+    "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+    "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+    "assets/img/Dingtalk_20240906094335.jpg",
+    "_posts/pool/2024-09-11.md",
+    "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
+    "_posts/pool/2024-09-05-日记.md",
+    "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "assets/img/Dingtalk_20240906103705.jpg",
     "assets/img/Dingtalk_20240906103403.jpg",
     "_posts/pool/2024-08-13-generator.md",
     "_template/tech_note.md",
-    "assets/img/Dingtalk_20240906094335.jpg",
-    "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
     "assets/img.md",
     "assets/img",
     "assets/新建文件夹",
     "_posts/pool/2024-09-04-模板测试.md",
-    "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
     "_template/time_note.md",
     "_posts/coding/2024-08-13-数据结构知识池.md",
     "_posts/coding/2024-08-13-json.dumps输出美化版json.md",
@@ -181,13 +184,9 @@
     "_posts/coding/2024-08-13-Python获取类的属性.md",
     "_posts/coding/2024-08-13-python开多进程.md",
     "_posts/coding/2024-08-13-python爬虫图解.md",
-    "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
-    "_posts/engineering/2024-09-04-conda重命名.md",
     "_posts/engineering/2024-08-13-linux删除相关.md",
     "_posts/engineering/2024-08-13-linux软链接相关.md",
     "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
-    "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
-    "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
     "_template"
   ]
 }
