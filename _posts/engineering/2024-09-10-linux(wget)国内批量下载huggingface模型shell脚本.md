@@ -9,6 +9,15 @@ tags:
   - shell脚本
   - 黑科技
 ---
+# 更新
+
+发现有别人写好的更好用的脚本，功能完善，支持多种下载方式，且多线程。
+[CLI-Tool for download Huggingface models an](https://gist.github.com/padeoe/697678ab8e528b85a2a7bddafea1fa4f "CLI-Tool for download Huggingface models and datasets with aria2/wget+git")
+国内支持：将脚本44行的`HF_ENDPOINT=${HF_ENDPOINT:-"https://huggingface.co"}`变更为`HF_ENDPOINT=${HF_ENDPOINT:-"https://hf-mirror.com"}`即可。
+
+其余使用方法详见教程。
+
+# 原笔记
 今天这个笔记是绝对的常用，因为是shell脚本，理论上不是huggingface的下载链接也可以用，可以说相当实用了（笔者在不同的公司写了三次这个脚本，要是早点写笔记就不用这样了，冷抖泪）
 
 实现批量下载+自动重命名文件，不需要自己一个一个对着链接重命名啦，比市面上的都快捷。原理很简单，是自动提取url最后一个"/"后的字段，然后根据`?`拆成两部分，只取第一部分，这样就把原链接中的查询字段等多余字段去除，提取正确的文件名。
