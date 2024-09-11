@@ -116,11 +116,11 @@ comments:
     shortname: xyz-ai # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: zdongs/zdongs.github.io # <gh-username>/<repo>
+    repo: cmgzn/cmgzn.github.io # <gh-username>/<repo>
     issue_term: title # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: zdongs/zdongs.github.io # <gh-username>/<repo>
+    repo: cmgzn/cmgzn.github.io # <gh-username>/<repo>
     repo_id: R_kgDOMktrtQ
     category: Announcements
     category_id: DIC_kwDOMktrtc4Ch7HW
