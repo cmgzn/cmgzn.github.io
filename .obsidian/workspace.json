@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2fa77fdd4ea80f11",
+        "id": "22b42069fa3e3c3d",
         "type": "tabs",
         "children": [
           {
-            "id": "80f516ebdcd05899",
+            "id": "b395958abd22bf21",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/app.json",
+                "staged": false
               }
             }
           }
@@ -69,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-05-日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/pool/2024-09-05-日记.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,8 +151,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80f516ebdcd05899",
+  "active": "b395958abd22bf21",
   "lastOpenFiles": [
+    "_posts/pool/2024-09-11-git版本管理常见技巧.md",
+    "assets/img/Dingtalk_20240906103705.jpg",
+    "assets/img/Dingtalk_20240906094335.jpg",
+    "assets/img/Dingtalk_20240906103403.jpg",
+    "_posts/pool/2024-09-05-日记.md",
     "_posts/coding/2024-08-13-python爬虫图解.md",
     "_posts/coding/2024-08-13-python开多进程.md",
     "_posts/coding/2024-08-13-Python获取类的属性.md",
@@ -167,13 +168,8 @@
     "_posts/engineering/2024-09-04-conda重命名.md",
     "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
     "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
-    "assets/img/Dingtalk_20240906094335.jpg",
-    "_posts/pool/2024-09-11.md",
     "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
-    "_posts/pool/2024-09-05-日记.md",
     "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
-    "assets/img/Dingtalk_20240906103705.jpg",
-    "assets/img/Dingtalk_20240906103403.jpg",
     "_posts/pool/2024-08-13-generator.md",
     "_template/tech_note.md",
     "assets/img.md",
