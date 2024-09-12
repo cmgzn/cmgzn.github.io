@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "22b42069fa3e3c3d",
+        "id": "1dfb6a46a1484898",
         "type": "tabs",
         "children": [
           {
-            "id": "b395958abd22bf21",
+            "id": "3122a401b1a08a27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+                "file": "_posts/pool/2024-09-12-记一次离奇的linux-ssh登录bug.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5,
+    "width": 321.5,
     "collapsed": true
   },
   "right": {
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+                "file": "_posts/pool/2024-09-12-记一次离奇的linux-ssh登录bug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+                "file": "_posts/pool/2024-09-12-记一次离奇的linux-ssh登录bug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md"
+                "file": "_posts/pool/2024-09-12-记一次离奇的linux-ssh登录bug.md"
               }
             }
           },
@@ -156,10 +156,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b395958abd22bf21",
+  "active": "3122a401b1a08a27",
   "lastOpenFiles": [
-    "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
+    "_posts/pool/2024-09-12-记一次离奇的linux-ssh登录bug.md",
+    "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+    "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "assets/img/Dingtalk_20240906103705.jpg",
     "assets/img/Dingtalk_20240906094335.jpg",
@@ -172,7 +174,6 @@
     "_posts/engineering/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
     "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
     "_posts/engineering/2024-09-04-conda重命名.md",
-    "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
     "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
     "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
     "_posts/pool/2024-08-13-generator.md",
