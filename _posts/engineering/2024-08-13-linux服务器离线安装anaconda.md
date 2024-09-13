@@ -2,8 +2,11 @@
 title: linux服务器离线安装anaconda
 author: X
 date: 2024-08-13 15:06:31 +0800
-categories: [engineering, linux]
-tags: [Linux,environment]
+categories:
+  - engineering
+  - linux
+tags:
+  - environment
 ---
 
 ## 步骤1 下载anaconda.sh至本地

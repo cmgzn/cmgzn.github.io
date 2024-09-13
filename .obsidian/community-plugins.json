@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "language-translator"
+  "language-translator",
+  "copilot",
+  "calendar",
+  "obsidian-excalidraw-plugin"
 ]
