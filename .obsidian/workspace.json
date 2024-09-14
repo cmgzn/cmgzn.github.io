@@ -11,8 +11,12 @@
             "id": "a7dc62ad9734e7f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md"
+              }
             }
           },
           {
@@ -126,6 +134,22 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8de34de54193280",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "38349e1975fac19a",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
               "state": {}
             }
           }
@@ -149,8 +173,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a7dc62ad9734e7f6",
+  "active": "d80940e85a1e5ed1",
   "lastOpenFiles": [
+    "_posts/pool/2024-09-14.md",
     "assets/Excalidraw/Drawing 2024-09-13 14.52.57.excalidraw.md",
     "Excalidraw/Drawing 2024-09-13 14.50.36.excalidraw.md",
     "Excalidraw/Drawing 2024-09-13 14.49.55.excalidraw.md",
@@ -158,7 +183,7 @@
     "_posts/pool/2024-09-13.md",
     "Excalidraw/Drawing 2024-09-13 14.48.27.excalidraw.md",
     "assets/Excalidraw",
-    "_posts/pool/2024-09-13-linux安装全局可用的conda.md",
+    "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "_posts/engineering/2024-08-13-脚本内指定GPU部署.md",
     "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
     "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
@@ -182,7 +207,6 @@
     "_posts/pool/2024-09-05-日记.md",
     "_posts/coding/2024-08-13-python爬虫图解.md",
     "_posts/coding/2024-08-13-python开多进程.md",
-    "_posts/coding/2024-08-13-Python获取类的属性.md",
     "assets/img",
     "assets/新建文件夹",
     "_template"
