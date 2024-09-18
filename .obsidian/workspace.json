@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
+                "file": "assets/draft/2024-09-18-日记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
+                "file": "assets/draft/2024-09-18-日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
+                "file": "assets/draft/2024-09-18-日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md"
+                "file": "assets/draft/2024-09-18-日记.md"
               }
             }
           },
@@ -175,7 +175,11 @@
   },
   "active": "d80940e85a1e5ed1",
   "lastOpenFiles": [
-    "_posts/pool/2024-09-14.md",
+    "assets/draft",
+    "_posts/pool/2024-09-05-日记.md",
+    "assets/draft/2024-09-18-日记.md",
+    "_posts/pool/2024-09-14-微信引入个人机器人踩雷篇.md",
+    "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "assets/Excalidraw/Drawing 2024-09-13 14.52.57.excalidraw.md",
     "Excalidraw/Drawing 2024-09-13 14.50.36.excalidraw.md",
     "Excalidraw/Drawing 2024-09-13 14.49.55.excalidraw.md",
@@ -183,7 +187,6 @@
     "_posts/pool/2024-09-13.md",
     "Excalidraw/Drawing 2024-09-13 14.48.27.excalidraw.md",
     "assets/Excalidraw",
-    "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "_posts/engineering/2024-08-13-脚本内指定GPU部署.md",
     "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
     "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
@@ -204,9 +207,6 @@
     "assets/img/Dingtalk_20240906103705.jpg",
     "assets/img/Dingtalk_20240906094335.jpg",
     "assets/img/Dingtalk_20240906103403.jpg",
-    "_posts/pool/2024-09-05-日记.md",
-    "_posts/coding/2024-08-13-python爬虫图解.md",
-    "_posts/coding/2024-08-13-python开多进程.md",
     "assets/img",
     "assets/新建文件夹",
     "_template"
