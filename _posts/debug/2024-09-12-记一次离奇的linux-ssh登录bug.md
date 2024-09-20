@@ -11,7 +11,7 @@ tags:
 ---
 遇到了一个脑瘫错误，查了半天查到一样的问题
 
-https://askubuntu.com/questions/1404304/sudo-su-command-not-working-su-failed-to-execute-root-no-such-file-or-director
+[sudo su command not working su: failed to execute root: No such file or directory](https://askubuntu.com/questions/1404304/sudo-su-command-not-working-su-failed-to-execute-root-no-such-file-or-director)
 
 目前已根据文档中提到的方法解决，即修改`/etc/passwd`文件中的`root:x:0:0:root:/root:root`。当然，在我的问题里，这个错误行是`root:x:0:0:root:/root:myusername`
 

@@ -3,8 +3,8 @@ title: github_page+obsidian实现个人笔记云管理
 author: X
 date: 2024-09-06 09:30:30 +0800
 categories:
-  - engineering
-  - pool
+  - 磨刀
+  - obsidian
 tags:
   - 笔记管理
 ---

@@ -2,8 +2,9 @@
 title: generator
 author: X
 date: 2024-08-13 09:06:31 +0800
-categories: [pool]
-tags: []
+categories:
+  - coding
+tags:
 ---
 
 要将这些生成器对象合并成一个包含 `n` 行的 JSONL 文件，每行包含字典中的每个字段的一条记录，可以按照以下步骤进行操作：
