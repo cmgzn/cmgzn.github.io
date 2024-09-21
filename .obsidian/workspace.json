@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 200
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -162,7 +162,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "copilot:Copilot Chat": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -170,14 +169,17 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
+      "copilot:Copilot Chat": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "a7dc62ad9734e7f6",
   "lastOpenFiles": [
+    "assets/draft/2024-09-18-日记.md",
+    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "_posts/pool/2024-09-21.md",
     "_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
     "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
-    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "_posts/coding/2024-08-13-generator.md",
     "_posts/pool/2024-09-14-微信引入个人机器人踩雷篇.md",
     "_posts/pool/2024-09-05-日记.md",
@@ -187,7 +189,6 @@
     "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
     "_posts/brain",
-    "assets/draft/2024-09-18-日记.md",
     "assets/draft",
     "assets/Excalidraw/Drawing 2024-09-13 14.52.57.excalidraw.md",
     "Excalidraw/Drawing 2024-09-13 14.50.36.excalidraw.md",
@@ -204,7 +205,6 @@
     "_posts/engineering/2024-08-13-linux删除相关.md",
     "_posts/engineering/2024-08-13-transformers.Trainer中wandb的关闭.md",
     "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
-    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/debug",
     "assets/img/Dingtalk_20240906103705.jpg",
     "assets/img/Dingtalk_20240906094335.jpg",
