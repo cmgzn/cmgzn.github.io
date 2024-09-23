@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-09-23.md",
+                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-09-23.md",
+                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-09-23.md",
+                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-09-23.md"
+                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md"
               }
             }
           },
@@ -173,14 +173,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f880743501d2682d",
+  "active": "a7dc62ad9734e7f6",
   "lastOpenFiles": [
+    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
+    "_posts/pool/2024-09-23.md",
     "_posts/pool/2024-09-21.md",
     "_posts/math/2024-08-13-泰勒公式.md",
-    "_posts/pool/2024-09-23.md",
     "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
     "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
-    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "_posts/coding/2024-08-13-generator.md",
     "assets/img/Dingtalk_20240906094335.jpg",
     "assets/img/Dingtalk_20240906103403.jpg",
@@ -192,7 +193,6 @@
     "_posts/pool/2024-09-04-模板测试.md",
     "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
-    "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
     "_posts/brain",
     "assets/draft/2024-09-18-日记.md",
     "assets/draft",

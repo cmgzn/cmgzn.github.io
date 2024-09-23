@@ -15,7 +15,7 @@ tags:
 
 此外，文档开头也需要一组"---"包围的文档属性说明，形式如下：
 
-![文档属性说明](assets/img/Dingtalk_20240906094335.jpg)
+![文档属性说明](../../assets/img/Dingtalk_20240906094335.jpg)
 
 这显然很麻烦，很快想到了用脚本或模板形式来快速创建符合格式的md文档。不想自己从头造轮子，马上想到的是利用vscode的活动模板，跟着下面这个教程做的：
 
@@ -25,59 +25,33 @@ tags:
 
 ```json
 {
+  // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // "prefix": "log",
+  // "body": [
+  //   "console.log('$1');",
+  //   "$2"
+  // ],
+  // "description": "Log output to console"
+  // }
 
-    // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
-
-    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-
-    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-
-    // same ids are connected.
-
-    // Example:
-
-    // "Print to console": {
-
-    //  "prefix": "log",
-
-    //  "body": [
-
-    //      "console.log('$1');",
-
-    //      "$2"
-
-    //  ],
-
-    //  "description": "Log output to console"
-
-    // }
-
-    "Insert Current Date": {
-
-        "prefix": "title",
-
-        "body": [
-
-            "---",
-
-            "title:",
-
-            "author: X",
-
-            "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND} +0800",
-
-            "categories: []",
-
-            "tags: []",
-
-            "---"
-
-        ],
-
-        "description": "Insert current date in Markdown format"
-
-    }  
-
+  "Insert Current Date": {
+    "prefix": "title",
+    "body": [
+      "---",
+      "title:",
+      "author: X",
+      "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND} +0800",
+      "categories: []",
+      "tags: []",
+      "---"
+    ],
+    "description": "Insert current date in Markdown format"
+  }
 }
 ```
 
@@ -98,11 +72,11 @@ tags:
 
 有些需要注意的点是，在obsidian中，文件属性不是以前文所看到的形式显示的，而是：
 
-![](assets/img/Dingtalk_20240906103403.jpg)
+![](../../assets/img/Dingtalk_20240906103403.jpg)
 
 在你填写完categories和tags之后呢，实际也并不是原先手写时的`[tag1, tag2]`形式，而是：
 
-![](assets/img/Dingtalk_20240906103705.jpg)
+![](../../assets/img/Dingtalk_20240906103705.jpg)
 但并不影响部署发布，`Jekyll`还是可以完美识别的。
 
 自此，你可以在obsidian中丝滑创作笔记，推送库可以利用第三方插件`Git`，实现笔记全流程都在同一平台管理。你也可以继续使用obsidian的内部链接功能，只不过发布后不再是链接，只会保留标题名称。
