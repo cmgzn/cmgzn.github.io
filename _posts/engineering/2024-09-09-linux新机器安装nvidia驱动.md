@@ -24,7 +24,7 @@ https://www.nvidia.cn/drivers/details/231206/
 
 右键复制下载链接后，wget下载即可。
 下载后发现是`.deb`文件，这个有点和我事先看好的教程不太一样，教程里写的是`.run`文件的安装。所以这里费了点功夫，最后参考的是天翼云的教程：
-https://www.ctyun.cn/document/10027724/10256137
+[Ubuntu操作系统安装Nvidia GPU驱动](https://www.ctyun.cn/document/10027724/10256137)
 
 很管用，很详细，点赞。
 
