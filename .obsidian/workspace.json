@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+                "file": "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+                "file": "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+                "file": "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md"
+                "file": "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md"
               }
             }
           },
@@ -175,6 +175,8 @@
   },
   "active": "a7dc62ad9734e7f6",
   "lastOpenFiles": [
+    "_posts/pool/2024-09-25.md",
+    "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
     "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
     "_posts/pool/2024-09-23.md",
@@ -188,7 +190,6 @@
     "assets/img/Dingtalk_20240906103705.jpg",
     "_posts/engineering/2024-09-14-微信引入个人机器人踩雷篇.md",
     "_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
-    "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
     "_posts/pool/2024-09-05-日记.md",
     "_posts/pool/2024-09-04-模板测试.md",
     "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
@@ -207,7 +208,6 @@
     "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
     "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
     "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
-    "_posts/engineering/2024-08-13-linux软链接相关.md",
     "_posts/debug",
     "assets/img",
     "assets/新建文件夹",
