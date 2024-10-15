@@ -11,10 +11,11 @@
             "id": "a7dc62ad9734e7f6",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
-                "staged": false
+                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md"
+              }
             }
           },
           {
@@ -170,6 +175,8 @@
   },
   "active": "a7dc62ad9734e7f6",
   "lastOpenFiles": [
+    "_posts/pool/2024-10-08.md",
+    "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
     "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/pool/2024-09-25.md",
     "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
@@ -201,8 +208,6 @@
     "assets/Excalidraw",
     "_posts/engineering/2024-08-13-脚本内指定GPU部署.md",
     "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
-    "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
-    "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
     "_posts/debug",
     "assets/img",
     "assets/新建文件夹",
