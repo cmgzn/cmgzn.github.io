@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
+                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
+                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
+                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md"
+                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md"
               }
             }
           },
@@ -175,8 +175,11 @@
   },
   "active": "a7dc62ad9734e7f6",
   "lastOpenFiles": [
+    "_posts/engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api.md",
+    "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
+    "assets/img/mrj9tyfxgpwc4ohkdhkq3uu3azxww8g.png",
+    "_posts/engineering/2024-10-15-Elasticsearch远程docker部署.md",
     "_posts/pool/2024-10-08.md",
-    "_posts/pool/2024-10-15-Elasticsearch远程docker部署.md",
     "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
     "_posts/pool/2024-09-25.md",
     "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
@@ -206,8 +209,6 @@
     "_posts/pool/2024-09-13.md",
     "Excalidraw/Drawing 2024-09-13 14.48.27.excalidraw.md",
     "assets/Excalidraw",
-    "_posts/engineering/2024-08-13-脚本内指定GPU部署.md",
-    "_posts/engineering/2024-08-13-两台Linux机器传文件.md",
     "_posts/debug",
     "assets/img",
     "assets/新建文件夹",
