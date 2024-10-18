@@ -4,10 +4,9 @@ author: X
 date: 2024-09-09 09:45:21 +0800
 categories:
   - engineering
-  - linux
+  - environment
 tags:
   - linux
-  - environment
 ---
 昨天搞的，有点记不清具体细节了。
 首先查看显卡型号：

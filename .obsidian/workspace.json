@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
+                "file": "_posts/pool/2024-10-18-不太安全但管用的docker非root用户权限问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
+                "file": "_posts/pool/2024-10-18-不太安全但管用的docker非root用户权限问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
+                "file": "_posts/pool/2024-10-18-不太安全但管用的docker非root用户权限问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/pool/2024-10-16-as-rag模块拓展思考.md"
+                "file": "_posts/pool/2024-10-18-不太安全但管用的docker非root用户权限问题.md"
               }
             }
           },
@@ -175,39 +175,39 @@
   },
   "active": "a7dc62ad9734e7f6",
   "lastOpenFiles": [
-    "_posts/engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api.md",
+    "_posts/pool/2024-10-18-npm_Node.js探秘.md",
+    "_posts/pool/2024-10-18-不太安全但管用的docker非root用户权限问题.md",
+    "_posts/pool/2024-10-18-Pinokio_AI浏览器调研.md",
     "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
-    "assets/img/mrj9tyfxgpwc4ohkdhkq3uu3azxww8g.png",
-    "_posts/engineering/2024-10-15-Elasticsearch远程docker部署.md",
-    "_posts/pool/2024-10-08.md",
-    "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
-    "_posts/pool/2024-09-25.md",
-    "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
-    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "_posts/engineering/2024-09-14-微信引入个人机器人踩雷篇.md",
+    "_posts/engineering/2024-09-13-pip国内加速.md",
+    "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
+    "_posts/engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本.md",
+    "_posts/engineering/2024-09-09-linux新机器安装nvidia驱动.md",
+    "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
+    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
+    "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
+    "_posts/engineering/2024-09-04-conda重命名.md",
+    "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
+    "_posts/engineering/2024-08-13-linux软链接相关.md",
+    "_posts/engineering/2024-08-13-linux删除相关.md",
+    "_posts/engineering/2024-10-15-Elasticsearch远程docker部署.md",
+    "_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
     "_posts/pool/2024-09-23.md",
     "_posts/pool/2024-09-21.md",
-    "_posts/math/2024-08-13-泰勒公式.md",
-    "_posts/engineering/2024-09-05-免费且私密的联网搜索组件duckduckgo.md",
-    "_posts/engineering/2024-09-06-windows无cpu启动stable-diffusion API接口.md",
-    "_posts/coding/2024-08-13-generator.md",
+    "_posts/pool/2024-09-25.md",
+    "_posts/pool/2024-10-08.md",
+    "_posts/engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api.md",
+    "assets/img/mrj9tyfxgpwc4ohkdhkq3uu3azxww8g.png",
+    "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "assets/img/Dingtalk_20240906094335.jpg",
     "assets/img/Dingtalk_20240906103403.jpg",
     "assets/img/Dingtalk_20240906103705.jpg",
-    "_posts/engineering/2024-09-14-微信引入个人机器人踩雷篇.md",
-    "_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
-    "_posts/pool/2024-09-05-日记.md",
-    "_posts/pool/2024-09-04-模板测试.md",
-    "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "_posts/brain",
-    "assets/draft/2024-09-18-日记.md",
     "assets/draft",
-    "assets/Excalidraw/Drawing 2024-09-13 14.52.57.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-13 14.50.36.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-13 14.49.55.excalidraw.md",
     "Excalidraw",
-    "_posts/pool/2024-09-13.md",
-    "Excalidraw/Drawing 2024-09-13 14.48.27.excalidraw.md",
     "assets/Excalidraw",
     "_posts/debug",
     "assets/img",

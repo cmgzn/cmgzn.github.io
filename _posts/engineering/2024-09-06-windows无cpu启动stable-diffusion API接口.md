@@ -4,10 +4,11 @@ author: X
 date: 2024-09-06 10:27:50 +0800
 categories:
   - engineering
-  - win
+  - 模型工程
 tags:
   - SD
   - 模型部署
+  - win
 ---
 # 参考文档
 [【奶奶看了也不会】AI绘画 Mac安装stable-diffusion-webui绘制AI妹子保姆级教程](https://zhuanlan.zhihu.com/p/609620596)
