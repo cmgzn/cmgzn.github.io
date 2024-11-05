@@ -9,8 +9,8 @@ tags:
   - linux
 ---
 # 参考链接
-[Linux为所有用户安装Miniconda](https://www.cnblogs.com/steinven/p/16190464.html "发布于 2022-04-25 15:35")
-[Linux创建用户并赋予Root权限](https://www.cnblogs.com/binyue/p/4702179.html "发布于 2014-10-12 15:38")
+- [Linux为所有用户安装Miniconda](https://www.cnblogs.com/steinven/p/16190464.html "发布于 2022-04-25 15:35")
+- [Linux创建用户并赋予Root权限](https://www.cnblogs.com/binyue/p/4702179.html "发布于 2014-10-12 15:38")
 
 # 步骤
 
