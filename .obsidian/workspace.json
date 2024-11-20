@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8c143fc75cb393ce",
+        "id": "b22be8ecf266ef8e",
         "type": "tabs",
         "children": [
           {
-            "id": "f72d07a20026484f",
+            "id": "5368d045abb8511f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pool/2024-11-14-深入理解 Python 异步编程（上）.md",
+                "file": "_posts/pool/2024-11-14-深入理解 Python 异步编程（上）.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,10 +185,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f72d07a20026484f",
+  "active": "5368d045abb8511f",
   "lastOpenFiles": [
+    "_posts/coding/2024-11-20-Python-asyncio异步转同步.md",
+    "_posts/coding/2024-08-13-python开多进程.md",
+    "_posts/coding/2024-08-13-Python获取类的属性.md",
+    "_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
+    "_posts/pool/2024-11-14-深入理解 Python 异步编程（上）.md",
     "_posts/pool/2024-11-14.md",
-    "pool/2024-11-14-深入理解 Python 异步编程（上）.md",
+    "_posts/pool/2024-11-15.md",
     "pool",
     "未命名.canvas",
     "_posts/engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api.md",
@@ -199,11 +204,8 @@
     "_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
     "_posts/coding/2024-08-13-generator.md",
     "_posts/coding/2024-08-13-数据结构知识池.md",
-    "_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
     "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
-    "_posts/coding/2024-08-13-Python获取类的属性.md",
-    "_posts/coding/2024-08-13-python开多进程.md",
     "_posts/debug/2024-10-18-不太安全但管用的docker非root用户权限问题.md",
     "_posts/math/2024-08-13-泰勒公式.md",
     "_posts/game/2024-06-27-猫国建设者原版开启小猫科学家.md",
@@ -213,8 +215,6 @@
     "_posts/engineering/2024-08-13-conda环境库信息导出与复原.md",
     "_posts/engineering/2024-08-13-linux服务器离线安装anaconda.md",
     "_posts/engineering/2024-08-13-linux删除相关.md",
-    "_posts/engineering/2024-09-04-conda重命名.md",
-    "_posts/engineering/2024-09-04-windows命令行下载url文件.md",
     "Clippings",
     "_posts/language",
     "assets/img/mrj9tyfxgpwc4ohkdhkq3uu3azxww8g.png",
