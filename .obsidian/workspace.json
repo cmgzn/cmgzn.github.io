@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca996f8cbd3ffab9",
+        "id": "5690a337e8f8e59a",
         "type": "tabs",
         "children": [
           {
-            "id": "fff1a084833f0f10",
+            "id": "6716c74f95988c83",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "_posts/pool/2024-12-26-微积分.md",
-                "staged": false
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (2024-12-26-微积分)"
+              "icon": "lucide-file",
+              "title": "2024-12-26-微积分"
             }
           }
         ]
@@ -51,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,8 +73,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,8 +186,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fff1a084833f0f10",
+  "active": "6716c74f95988c83",
   "lastOpenFiles": [
+    "_posts/pool/2024-12-27.md",
     "_posts/pool/2024-12-26-微积分.md",
     "_posts/pool/2024-12-26-小case.md",
     "_posts/pool/2024-12-18-github_api爬虫.md",
@@ -215,7 +216,6 @@
     "未命名.canvas",
     "_posts/engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api.md",
     "_posts/engineering/2024-10-24-ssh-keygen自定义密钥名称.md",
-    "_posts/engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号.md",
     "Clippings",
     "_posts/language",
     "assets/img/mrj9tyfxgpwc4ohkdhkq3uu3azxww8g.png",
