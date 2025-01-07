@@ -1,9 +1,12 @@
 ---
-title: 2024-12-18-github_api爬虫
+title: github_api爬虫
 author: X
 date: 2024-12-18 14:08:29 +0800
-categories: 
+categories:
+  - coding
 tags:
+  - 爬虫
+  - github
 ---
 # 背景
 需要爬github repo中的一些特定内容，利用了github提供的api。搞了整整两天才搞出来稍微优化的版本，主要因为github_api有**速率限制**，所以需要准备好token断连后换token续传、并发等处理。
