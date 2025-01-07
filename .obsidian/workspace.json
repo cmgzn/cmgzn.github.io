@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "78821b1cab42bd36",
+        "id": "cf171cba43a38837",
         "type": "tabs",
         "children": [
           {
-            "id": "b261dec19c87e8b9",
+            "id": "4a3c2bda23f8302a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "_posts/language/2025-01-07-英语语法综述.md",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (2025-01-07-英语语法综述)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -185,7 +182,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b261dec19c87e8b9",
+  "active": "f880743501d2682d",
   "lastOpenFiles": [
     "_posts/language/2025-01-07-英语语法综述.md",
     "_posts/language/2025-01-07-动词分类与时态.md",
