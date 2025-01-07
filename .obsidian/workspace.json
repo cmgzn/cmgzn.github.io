@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8ec0feac6c76e547",
+        "id": "78821b1cab42bd36",
         "type": "tabs",
         "children": [
           {
-            "id": "121f21d4560eecda",
+            "id": "b261dec19c87e8b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "_posts/language/2025-01-07-动词分类与时态.md",
-                "mode": "source",
-                "source": false
+                "file": "_posts/language/2025-01-07-英语语法综述.md",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "2025-01-07-动词分类与时态"
+              "icon": "git-pull-request",
+              "title": "Diff View (2025-01-07-英语语法综述)"
             }
           }
         ]
@@ -77,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 505.5
+    "width": 505.5,
+    "collapsed": true
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -185,7 +185,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "121f21d4560eecda",
+  "active": "b261dec19c87e8b9",
   "lastOpenFiles": [
     "_posts/language/2025-01-07-英语语法综述.md",
     "_posts/language/2025-01-07-动词分类与时态.md",
