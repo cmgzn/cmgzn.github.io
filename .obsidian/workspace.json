@@ -11,10 +11,14 @@
             "id": "4a3c2bda23f8302a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/language/2025-01-07-英语语法综述.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-01-07-英语语法综述"
             }
           }
         ]
@@ -182,10 +186,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f880743501d2682d",
+  "active": "4a3c2bda23f8302a",
   "lastOpenFiles": [
-    "_posts/language/2025-01-07-英语语法综述.md",
     "_posts/language/2025-01-07-动词分类与时态.md",
+    "_posts/pool/2025-01-08.md",
+    "_posts/language/2025-01-07-英语语法综述.md",
     "_posts/coding/2024-12-18-github_api爬虫.md",
     "assets/img/Pasted image 20250107135443.png",
     "assets/img/Pasted image 20250107172601.png",
