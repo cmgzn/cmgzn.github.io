@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2025-01-10-“时体气”洞察笔记.md",
+                "file": "_posts/language/2025-01-08-动词语气.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-10-“时体气”洞察笔记"
+              "title": "2025-01-08-动词语气"
             }
           },
           {
@@ -199,22 +199,24 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4953789f4154b07b",
+  "active": "d80940e85a1e5ed1",
   "lastOpenFiles": [
-    "_posts/language/2025-01-08-动词语气.md",
     "_posts/language/2025-01-07-动词分类与时态.md",
+    "_posts/pool/2025-01-16.md",
     "_posts/language/2025-01-07-英语语法综述.md",
+    "_posts/pool/2025-01-13.md",
+    "_posts/language/2025-01-08-动词语气.md",
+    "_posts/pool/2025-01-10-“时体气”洞察笔记.md",
     "_posts/pool/2024-11-14-深入理解Python异步编程（上）.md",
     "_posts/pool/2024-12-26-小case.md",
     "assets/Excalidraw/Drawing 2025-01-08 18.06.19.excalidraw.md",
-    "_posts/pool/2025-01-10-“时体气”洞察笔记.md",
     "assets/Excalidraw/Drawing 2025-01-08 18.17.22.excalidraw.md",
     "assets/img/20250108动词语气p5.png",
     "assets/img/20250108动词语气p4.png",
+    "assets/img/20250108动词语气p1.png",
     "assets/img/20250108动词语气p3.png",
     "assets/img/20250108动词语气p2.png",
-    "assets/img/20250108动词语气p6.png",
-    "assets/img/20250108动词语气p1.png",
+    "assets/img/20250108动词语气p2.png",
     "assets/img/Pasted image 20250108174824.png",
     "assets/img/Pasted image 20250108174810.png",
     "assets/img/Pasted image 20250108174759.png",
@@ -235,8 +237,6 @@
     "Clippings/Fatescript  当我谈RAG时我谈些什么.md",
     "_posts/coding/2024-11-20-Python-asyncio异步转同步.md",
     "_posts/pool/2024-11-26.md",
-    "_posts/pool/2024-11-22.md",
-    "_posts/coding/2024-08-13-python开多进程.md",
     "pool",
     "未命名.canvas",
     "Clippings",
