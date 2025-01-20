@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f898ad0071987cb1",
+        "id": "35168e7123f29caa",
         "type": "tabs",
         "children": [
           {
-            "id": "8e4ca9762af7a47b",
+            "id": "44c4ca46abf5e01c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "_posts/pool/2025-01-17.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "2025-01-17"
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -185,17 +184,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8e4ca9762af7a47b",
+  "active": "44c4ca46abf5e01c",
   "lastOpenFiles": [
-    "_posts/language/2025-01-07-英语语法综述.md",
-    "_posts/pool/2025-01-17.md",
     "_posts/language/2025-01-17-是大臣精讲E1.md",
+    "_posts/pool/2025-01-17.md",
+    "_posts/pool/2025-01-13.md",
+    "_posts/pool/2025-01-20.md",
+    "_posts/language/2025-01-07-英语语法综述.md",
     "_posts/pool/2025-01-16.md",
     "_posts/language/2025-01-08-动词语气.md",
     "_posts/language/2025-01-07-动词分类与时态.md",
     "assets/img/20250117是大臣E1p1.png",
     "_posts/engineering/2024-10-15-docker-ubuntu安装教程.md",
-    "_posts/pool/2025-01-13.md",
     "_posts/language/2025-01-10-“时体气”洞察笔记.md",
     "_posts/pool/2024-11-14-深入理解Python异步编程（上）.md",
     "_posts/pool/2024-12-26-小case.md",
@@ -222,7 +222,6 @@
     "_posts/pool/2024-11-28.md",
     "_posts/pool/2024-12-04.md",
     "Clippings/华为“天才少年”：现在的AI技术要么无趣，要么无用｜钛媒体AGI_澎湃号·湃客_澎湃新闻-The Paper.md",
-    "_posts/pool/2024-11-27-多线程信号量.md",
     "pool",
     "未命名.canvas",
     "Clippings",
