@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35168e7123f29caa",
+        "id": "53c65249b87d87c8",
         "type": "tabs",
         "children": [
           {
-            "id": "44c4ca46abf5e01c",
+            "id": "c88b0ffcfda2adc6",
             "type": "leaf",
             "state": {
               "type": "diff-view",
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -184,20 +185,27 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "44c4ca46abf5e01c",
+  "active": "c88b0ffcfda2adc6",
   "lastOpenFiles": [
-    "_posts/language/2025-01-17-是大臣精讲E1.md",
+    "_posts/pool/2025-02-18-SQLite.md",
+    "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
+    "_posts/pool/2024-11-14-深入理解Python异步编程（上）.md",
+    "_posts/pool/2024-11-27-多线程信号量.md",
     "_posts/pool/2025-01-17.md",
-    "_posts/pool/2025-01-13.md",
     "_posts/pool/2025-01-20.md",
+    "_posts/language/2025-01-17-是大臣精讲E1.md",
+    "_posts/language/2025-01-10-“时体气”洞察笔记.md",
+    "_posts/language/2025-01-08-动词语气.md",
+    "_posts/coding/2024-08-13-数据结构知识池.md",
+    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+    "_posts/coding/2024-12-18-github_api爬虫.md",
+    "_posts/pool/2025-01-13.md",
     "_posts/language/2025-01-07-英语语法综述.md",
     "_posts/pool/2025-01-16.md",
-    "_posts/language/2025-01-08-动词语气.md",
     "_posts/language/2025-01-07-动词分类与时态.md",
     "assets/img/20250117是大臣E1p1.png",
     "_posts/engineering/2024-10-15-docker-ubuntu安装教程.md",
-    "_posts/language/2025-01-10-“时体气”洞察笔记.md",
-    "_posts/pool/2024-11-14-深入理解Python异步编程（上）.md",
     "_posts/pool/2024-12-26-小case.md",
     "assets/Excalidraw/Drawing 2025-01-08 18.06.19.excalidraw.md",
     "assets/Excalidraw/Drawing 2025-01-08 18.17.22.excalidraw.md",
@@ -210,18 +218,11 @@
     "assets/img/Pasted image 20250108174824.png",
     "assets/img/Pasted image 20250108174810.png",
     "assets/img/Pasted image 20250108174759.png",
-    "_posts/coding/2024-12-18-github_api爬虫.md",
     "_posts/math/2024-12-27-极限.md",
     "_posts/math/2024-12-26-微积分.md",
     "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
     "_posts/pool/2024-12-13.md",
     "assets/Excalidraw/Drawing 2024-12-05 13.25.09.excalidraw.md",
-    "assets/Excalidraw/Drawing 2024-12-05 13.24.41.excalidraw.md",
-    "_posts/pool/2024-12-05.md",
-    "Clippings/使用line_profiler对python代码性能进行评估优化 - DECHIN - 博客园.md",
-    "_posts/pool/2024-11-28.md",
-    "_posts/pool/2024-12-04.md",
-    "Clippings/华为“天才少年”：现在的AI技术要么无趣，要么无用｜钛媒体AGI_澎湃号·湃客_澎湃新闻-The Paper.md",
     "pool",
     "未命名.canvas",
     "Clippings",
