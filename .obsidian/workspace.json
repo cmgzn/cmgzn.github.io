@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "53c65249b87d87c8",
+        "id": "61e3fbca4b9d9562",
         "type": "tabs",
         "children": [
           {
-            "id": "c88b0ffcfda2adc6",
+            "id": "64e74a6f6bd13030",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "2024-09-20-obsidian ios多平台同步超完美方案"
             }
           }
         ]
@@ -39,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "55bf47326259e19a",
@@ -139,10 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/engineering/2024-09-11-git版本管理常见技巧.md"
+                "file": "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-09-11-git版本管理常见技巧 的大纲"
+              "title": "2024-09-20-obsidian ios多平台同步超完美方案 的大纲"
             }
           },
           {
@@ -163,6 +167,16 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
+            }
+          },
+          {
+            "id": "3fa6860e9848280c",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -185,30 +199,35 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c88b0ffcfda2adc6",
+  "active": "64e74a6f6bd13030",
   "lastOpenFiles": [
-    "_posts/pool/2025-02-18-SQLite.md",
+    "_posts/pool/2024-09-05-日记.md",
+    "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
+    "_posts/pool/2024-10-18-日记.md",
+    "_posts/pool/2024-10-18-Pinokio_AI浏览器调研.md",
     "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
-    "_posts/pool/2024-11-14-深入理解Python异步编程（上）.md",
-    "_posts/pool/2024-11-27-多线程信号量.md",
+    "_posts/brain/2025-03-11-软件工程.md",
+    "_posts/pool/2025-03-18.md",
+    "_posts/pool/2025-03-14.md",
+    "_posts/math/2024-12-27-极限.md",
+    "_posts/math/2024-12-26-微积分.md",
+    "_posts/coding/2024-10-18-npm_Node.js探秘.md",
+    "Clippings/使用line_profiler对python代码性能进行评估优化 - DECHIN - 博客园.md",
+    "Clippings/华为“天才少年”：现在的AI技术要么无趣，要么无用｜钛媒体AGI_澎湃号·湃客_澎湃新闻-The Paper.md",
+    "Clippings/深入理解Python异步编程（上）.md",
+    "_posts/coding/2024-08-13-python爬虫图解.md",
+    "_posts/coding/2024-12-26-小case.md",
+    "_posts/coding/2024-11-27-多线程信号量.md",
+    "_posts/engineering/2025-02-18-SQLite基础.md",
+    "_posts/language/2025-01-17-是大臣精讲E1.md",
+    "_posts/language/2025-01-08-动词语气.md",
+    "_posts/language/2025-01-10-“时体气”洞察笔记.md",
+    "_posts/pool/2025-02-19.md",
+    "Clippings/2024考研数学数一150分经验贴(完全符合26考研).md",
     "_posts/pool/2025-01-17.md",
     "_posts/pool/2025-01-20.md",
-    "_posts/language/2025-01-17-是大臣精讲E1.md",
-    "_posts/language/2025-01-10-“时体气”洞察笔记.md",
-    "_posts/language/2025-01-08-动词语气.md",
     "_posts/coding/2024-08-13-数据结构知识池.md",
-    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
-    "_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
-    "_posts/coding/2024-12-18-github_api爬虫.md",
-    "_posts/pool/2025-01-13.md",
-    "_posts/language/2025-01-07-英语语法综述.md",
-    "_posts/pool/2025-01-16.md",
-    "_posts/language/2025-01-07-动词分类与时态.md",
     "assets/img/20250117是大臣E1p1.png",
-    "_posts/engineering/2024-10-15-docker-ubuntu安装教程.md",
-    "_posts/pool/2024-12-26-小case.md",
-    "assets/Excalidraw/Drawing 2025-01-08 18.06.19.excalidraw.md",
-    "assets/Excalidraw/Drawing 2025-01-08 18.17.22.excalidraw.md",
     "assets/img/20250108动词语气p5.png",
     "assets/img/20250108动词语气p4.png",
     "assets/img/20250108动词语气p1.png",
@@ -218,11 +237,6 @@
     "assets/img/Pasted image 20250108174824.png",
     "assets/img/Pasted image 20250108174810.png",
     "assets/img/Pasted image 20250108174759.png",
-    "_posts/math/2024-12-27-极限.md",
-    "_posts/math/2024-12-26-微积分.md",
-    "_posts/engineering/2024-09-11-git版本管理常见技巧.md",
-    "_posts/pool/2024-12-13.md",
-    "assets/Excalidraw/Drawing 2024-12-05 13.25.09.excalidraw.md",
     "pool",
     "未命名.canvas",
     "Clippings",
