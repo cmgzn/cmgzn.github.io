@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "61e3fbca4b9d9562",
+        "id": "23830157861aa32b",
         "type": "tabs",
         "children": [
           {
-            "id": "64e74a6f6bd13030",
+            "id": "96a1ad63e9a5cf30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+                "file": "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-09-20-obsidian ios多平台同步超完美方案"
+              "title": "2024-11-05-git core.autocrlf配置说明"
             }
           }
         ]
@@ -199,14 +199,31 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64e74a6f6bd13030",
+  "active": "96a1ad63e9a5cf30",
   "lastOpenFiles": [
+    "_posts/pool/2025-03-26-人设.md",
+    "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
+    "_posts/engineering/2025-04-24-linux绘图中文字体乱码心得.md",
+    "_posts/pool/2025-04-08.md",
+    "_posts/pool/2025-04-11.md",
+    "_posts/brain/2025-03-20-数据库系统.md",
+    "Pasted image 20250410175629.png",
+    "Pasted image 20250410165046.png",
+    "Pasted image 20250410164612.png",
+    "Pasted image 20250410164459.png",
+    "Pasted image 20250410164339.png",
+    "Pasted image 20250410164216.png",
+    "_posts/pool/2025-04-10.md",
+    "_posts/pool/2025-03-28.md",
+    "_posts/brain/2025-03-11-软件工程.md",
+    "assets/img/Pasted image 20250320173039.png",
+    "assets/img/Pasted image 20250107172547.png",
+    "assets/img/Pasted image 20250107172601.png",
+    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "_posts/pool/2024-09-05-日记.md",
     "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
     "_posts/pool/2024-10-18-日记.md",
     "_posts/pool/2024-10-18-Pinokio_AI浏览器调研.md",
-    "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
-    "_posts/brain/2025-03-11-软件工程.md",
     "_posts/pool/2025-03-18.md",
     "_posts/pool/2025-03-14.md",
     "_posts/math/2024-12-27-极限.md",
@@ -219,24 +236,7 @@
     "_posts/coding/2024-12-26-小case.md",
     "_posts/coding/2024-11-27-多线程信号量.md",
     "_posts/engineering/2025-02-18-SQLite基础.md",
-    "_posts/language/2025-01-17-是大臣精讲E1.md",
-    "_posts/language/2025-01-08-动词语气.md",
-    "_posts/language/2025-01-10-“时体气”洞察笔记.md",
-    "_posts/pool/2025-02-19.md",
-    "Clippings/2024考研数学数一150分经验贴(完全符合26考研).md",
-    "_posts/pool/2025-01-17.md",
-    "_posts/pool/2025-01-20.md",
-    "_posts/coding/2024-08-13-数据结构知识池.md",
     "assets/img/20250117是大臣E1p1.png",
-    "assets/img/20250108动词语气p5.png",
-    "assets/img/20250108动词语气p4.png",
-    "assets/img/20250108动词语气p1.png",
-    "assets/img/20250108动词语气p3.png",
-    "assets/img/20250108动词语气p2.png",
-    "assets/img/20250108动词语气p2.png",
-    "assets/img/Pasted image 20250108174824.png",
-    "assets/img/Pasted image 20250108174810.png",
-    "assets/img/Pasted image 20250108174759.png",
     "pool",
     "未命名.canvas",
     "Clippings",

@@ -62,7 +62,7 @@ settings:
     description: Font for text headings (h1 to h6); empty will use default text font
     id: ebw-header-font
     type: variable-text
-    default: "'Ma Shan Zheng'"
+    default: "'Architects Daughter'"
   -
     title: Heading Font Caps Variant
     description: Capitalization variant for h1 text headings
@@ -470,7 +470,7 @@ body {
 body {
   --ebw-font-text: "IBM Plex Sans", Helvetica Neue;
   --ebw-font-monospace: "Fira Code", "Source Code Pro", Jetbrains Mono;
-  --ebw-header-font: "Ma Shan Zheng","Architects Daughter";
+  --ebw-header-font: "Architects Daughter";
   --ebw-header-font-caps-variant: normal;
   --ebw-font-tags: var(--ebw-header-font);
   --ebw-font-callout-title: var(--ebw-header-font);
@@ -485,12 +485,6 @@ body {
   --heading-spacing: calc(var(--p-spacing) * var(--ebw-header-modifier));
 }
 
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-display: swap;
-  src: url('https://fonts.gstatic.com/ea/mashanzheng/v5/MaShanZheng-Regular.otf') format('opentype');
-}
 /* architects-daughter-latin-400-normal */
 @font-face {
   font-family: "Architects Daughter";
