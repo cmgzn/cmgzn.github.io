@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
+                "file": "source/_posts/language/2025-01-17-是大臣精讲E1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-05-git core.autocrlf配置说明"
-            }
-          },
-          {
-            "id": "5655535136932486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "themes/Chic/LICENSE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LICENSE"
+              "title": "2025-01-17-是大臣精讲E1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/Chic/LICENSE.md",
+                "file": "source/_posts/language/2025-01-17-是大臣精讲E1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LICENSE 的大纲"
+              "title": "2025-01-17-是大臣精讲E1 的大纲"
             }
           },
           {
@@ -195,11 +180,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaa03fbb005a41fb",
+  "active": "96a1ad63e9a5cf30",
   "lastOpenFiles": [
+    "source/_posts/language/2025-01-08-动词语气.md",
+    "themes/Chic/source/image/avatar.jpeg",
+    "source/image/20250108动词语气p1.png",
+    "source/image/20250117是大臣E1p1.png",
+    "source/image/20250108动词语气p5.png",
+    "source/image/20250108动词语气p4.png",
+    "source/image/20250108动词语气p3.png",
+    "source/image/20250108动词语气p2.png",
+    "source/image",
+    "source/_posts/language/2025-01-07-动词分类与时态.md",
+    "themes/Chic/LICENSE.md",
     "themes/Chic/README.md",
     "themes/Chic/README-CN.md",
-    "themes/Chic/LICENSE.md",
     "themes/Chic/ChangeLogs.md",
     "_posts/pool/2025-07-10-批量调整python脚本import顺序.md",
     "_posts/pool/2025-05-22-sphinx文档构建笔记.md",
@@ -217,22 +212,13 @@
     "Pasted image 20250410175629.png",
     "Pasted image 20250410165046.png",
     "Pasted image 20250410164612.png",
-    "Pasted image 20250410164459.png",
-    "Pasted image 20250410164339.png",
-    "Pasted image 20250410164216.png",
     "_posts/pool/2025-04-10.md",
     "_posts/pool/2025-03-28.md",
     "_posts/brain/2025-03-11-软件工程.md",
-    "assets/img/Pasted image 20250320173039.png",
-    "assets/img/Pasted image 20250107172547.png",
-    "assets/img/Pasted image 20250107172601.png",
     "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "_posts/pool/2024-09-05-日记.md",
     "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
     "_posts/pool/2024-10-18-日记.md",
-    "_posts/pool/2024-10-18-Pinokio_AI浏览器调研.md",
-    "_posts/pool/2025-03-18.md",
-    "assets/img/20250117是大臣E1p1.png",
     "pool",
     "未命名.canvas",
     "Clippings",
@@ -242,7 +228,6 @@
     "Excalidraw",
     "assets/Excalidraw",
     "_posts/debug",
-    "assets/img",
-    "assets/新建文件夹"
+    "assets/img"
   ]
 }
