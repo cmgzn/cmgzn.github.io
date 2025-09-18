@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>chic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="chic">
+<meta property="og:url" content="http://example.com/page/4/index.html">
+<meta property="og:site_name" content="chic">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="chic" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">chic</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/10/16/engineering/2024-10-16-Elasticsearch%E4%B9%8B%E4%B8%80%E7%99%BE%E7%A7%8D%E4%BD%A0%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AE%B0%E7%9A%84RESTful%20api/" class="article-date">
+  <time class="dt-published" datetime="2024-10-16T06:41:44.000Z" itemprop="datePublished">2024-10-16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/10/16/engineering/2024-10-16-Elasticsearch%E4%B9%8B%E4%B8%80%E7%99%BE%E7%A7%8D%E4%BD%A0%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AE%B0%E7%9A%84RESTful%20api/">Elasticsearch之一百种你不得不记的RESTful api</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <ol>
+<li>删除索引&#96;curl -XDELETE “<a target="_blank" rel="noopener" href="http://localhost:9200/your_index_name?pretty">http://localhost:9200/your_index_name?pretty</a>“</li>
+<li>查看索引列表<code>curl -X GET &quot;http://localhost:9200/_cat/indices?v&quot; </code><br>&#96;</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/10/16/engineering/2024-10-16-Elasticsearch%E4%B9%8B%E4%B8%80%E7%99%BE%E7%A7%8D%E4%BD%A0%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AE%B0%E7%9A%84RESTful%20api/" data-id="cmfp6md5g0035si2bbbkxe8pj" data-title="Elasticsearch之一百种你不得不记的RESTful api" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Elasticsearch/" rel="tag">Elasticsearch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/curl/" rel="tag">curl</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-10-15-Elasticsearch远程docker部署 1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/10/15/engineering/2024-10-15-Elasticsearch%E8%BF%9C%E7%A8%8Bdocker%E9%83%A8%E7%BD%B2%201/" class="article-date">
+  <time class="dt-published" datetime="2024-10-15T06:27:40.000Z" itemprop="datePublished">2024-10-15</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/10/15/engineering/2024-10-15-Elasticsearch%E8%BF%9C%E7%A8%8Bdocker%E9%83%A8%E7%BD%B2%201/">Elasticsearch远程docker部署</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="从Docker安装Elasticsearch"><a href="#从Docker安装Elasticsearch" class="headerlink" title="从Docker安装Elasticsearch"></a>从Docker安装Elasticsearch</h1><p><a target="_blank" rel="noopener" href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html">官方教程</a></p>
+<p>按步骤走就可以。需要注意，创建容器时需要调整一下自己需要的设置，示例提供的设置需要https验证，以及开启了试用，只想用基础版的可以取消。最后多方调试，苯人用的设置如下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run -p 9200:9200 -p 9300:9300 -d --name es01 --network elastic \</span><br><span class="line">  -e ELASTIC_PASSWORD=<span class="variable">$ELASTIC_PASSWORD</span> \</span><br><span class="line">  -e <span class="string">&quot;discovery.type=single-node&quot;</span> \</span><br><span class="line">  -e <span class="string">&quot;xpack.security.http.ssl.enabled=false&quot;</span> \</span><br><span class="line">  -e <span class="string">&quot;xpack.license.self_generated.type=basic&quot;</span> \</span><br><span class="line">  docker.elastic.co/elasticsearch/elasticsearch:8.15.2</span><br></pre></td></tr></table></figure>
+
+<p>这种方法下密码可以通过环境变量自己指定，并且关掉了https验证以及试用版。REST API测试：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -u elastic:<span class="variable">$ELASTIC_PASSWORD</span> http://localhost:9200</span><br></pre></td></tr></table></figure>
+
+<p>利用vscode转发端口到本地，本地也可以顺畅联通。</p>
+<p>表面看起来很简单，实际为了找到合适的设置，笔者遭老罪了^v^…</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/10/15/engineering/2024-10-15-Elasticsearch%E8%BF%9C%E7%A8%8Bdocker%E9%83%A8%E7%BD%B2%201/" data-id="cmfp6md5e002ysi2b0fj1ekoa" data-title="Elasticsearch远程docker部署" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Elasticsearch/" rel="tag">Elasticsearch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-10-15-docker-ubuntu安装教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/10/15/engineering/2024-10-15-docker-ubuntu%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2024-10-15T06:27:40.000Z" itemprop="datePublished">2024-10-15</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/10/15/engineering/2024-10-15-docker-ubuntu%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/">docker-ubuntu安装教程</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h1><p>没什么好说的，国内参考这个：</p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/carmi/p/17939025">如何在 Ubuntu 22.04 LTS 中安装 Docker 和 Docker Compose</a></p>
+<p>中间因为试了其他方法，出了一些冲突，去<code>etc/apt</code>下面挨个翻一遍，把docker相关全删了，重新跑一下。</p>
+<p>省流：</p>
+<h2 id="1-更新ubuntu"><a href="#1-更新ubuntu" class="headerlink" title="1. 更新ubuntu"></a>1. 更新ubuntu</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt upgrade</span><br><span class="line"><span class="built_in">sudo</span> apt full-upgrade</span><br></pre></td></tr></table></figure>
+
+<p>这里因为之前装nvidia驱动时乱搞，多装了一个版本，所以也出错了，照例循着报错去<code>etc/apt</code>把不对的依赖删了就行了。删之前检查一下确定是不用的驱动版本。</p>
+<h2 id="2-添加Docker库"><a href="#2-添加Docker库" class="headerlink" title="2. 添加Docker库"></a>2. 添加Docker库</h2><p>首先，安装必要的证书并允许 apt 包管理器使用以下命令通过 HTTPS 使用存储库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install apt-transport-https ca-certificates curl software-properties-common gnupg lsb-release</span><br></pre></td></tr></table></figure>
+
+<p>然后，运行下列命令添加 Docker 的官方 GPG 密钥：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | <span class="built_in">sudo</span> gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg</span><br></pre></td></tr></table></figure>
+
+<p>添加 Docker 官方库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu <span class="subst">$(lsb_release -cs)</span> stable&quot;</span> | <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>使用命令更新 Ubuntu 源列表：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-安装-Docker"><a href="#3-安装-Docker" class="headerlink" title="3. 安装 Docker"></a>3. 安装 Docker</h2><p>这里只摘取安装最新版本的方法：</p>
+<p>运行下列命令在 Ubuntu 22.04 LTS 服务器中安装最新 Docker CE：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin</span><br></pre></td></tr></table></figure>
+
+<p>手动选择版本的方法看原文。</p>
+<p>安装完成后，运行如下命令验证 Docker 服务是否在运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl status docker</span><br></pre></td></tr></table></figure>
+
+<p>如果没有运行，运行以下命令运行 Docker 服务：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start docker</span><br></pre></td></tr></table></figure>
+
+<p>使 Docker 服务在每次重启时自动启动：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+
+<p>可以使用以下命令查看已安装的 Docker 版本：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker version</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-测试docker"><a href="#4-测试docker" class="headerlink" title="4. 测试docker"></a>4. 测试docker</h2><p>原文有点小错误，实际是运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run hello-world</span><br></pre></td></tr></table></figure>
+
+<p>上述命令会下载一个 Docker 测试镜像，并在容器内执行一个 “hello_world” 样例程序。</p>
+<p>这里不出意外会有网络问题，参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/Lichen0196/article/details/137355517">docker国内镜像源配置及走代理设置</a>设置一下：</p>
+<p><code>/etc/docker/daemon.json</code>处，没有的话自行创建。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim  /etc/docker/daemon.json</span><br></pre></td></tr></table></figure>
+
+<p>填写：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;registry-mirrors&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="string">&quot;https://registry.docker-cn.com&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="string">&quot;https://docker.mirrors.ustc.edu.cn&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="string">&quot;https://hub-mirror.c.163.com&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="string">&quot;https://mirror.baidubce.com&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="string">&quot;https://ccr.ccs.tencentyun.com&quot;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>重启docker，注意由于走的是守护程序daemon，所以daemon进程也需要重启。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl daemon-reload		<span class="comment">#重启daemon进程</span></span><br><span class="line"><span class="built_in">sudo</span> systemctl restart docker		<span class="comment">#重启docker</span></span><br></pre></td></tr></table></figure>
+
+<p>最后验证：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker info</span><br></pre></td></tr></table></figure>
+
+<p>检查info里面是否包含：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Registry Mirrors:</span><br><span class="line"> https://docker.mirrors.ustc.edu.cn/</span><br><span class="line"> http://hub-mirror.c.163.com/</span><br><span class="line"> https://mirror.ccs.tencentyun.com/</span><br><span class="line"> https://registry.docker-cn.com/</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/10/15/engineering/2024-10-15-docker-ubuntu%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" data-id="cmfp6md5f0030si2b9zgca7lb" data-title="docker-ubuntu安装教程" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-brain/2024-09-20-obsidian ios多平台同步超完美方案" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/20/brain/2024-09-20-obsidian%20ios%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%90%8C%E6%AD%A5%E8%B6%85%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/" class="article-date">
+  <time class="dt-published" datetime="2024-09-20T07:37:38.000Z" itemprop="datePublished">2024-09-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E7%A3%A8%E5%88%80/">磨刀</a>►<a class="article-category-link" href="/categories/%E7%A3%A8%E5%88%80/obsidian/">obsidian</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/20/brain/2024-09-20-obsidian%20ios%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%90%8C%E6%AD%A5%E8%B6%85%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/">obsidian ios多平台同步超完美方案</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>最近高强度使用obsidian，有时候一些备忘的check box也想在obsidian写，于是就捣鼓着想把仓库同步到移动端（ios）。</p>
+<p>看了很多云盘备份方案，其实都没有github丝滑，最重要的是免费+通用，若无必要，勿增实体，一个新事物的引入，与原有事物的耦合性不佳，它几乎只能解决当前问题的话，那笔者是不会优先考虑TA的！所以github就是最佳方案！</p>
+<p>另一方面，根据笔者的知识储备，觉得移动端使用git命令不应该很困难！果然就找到了，这个博主写的非常好，完美解决问题。</p>
+<p><a target="_blank" rel="noopener" href="https://cason.work/2023/04/20/obsidian-git-ios-%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%90%8C%E6%AD%A5/">obsidian git ios 多平台同步</a></p>
+<p>省流版：</p>
+<ol>
+<li><p>下一个<code>iSH Shell</code>（免费且界面蛮舒服的）</p>
+</li>
+<li><p>打开ISH执行以下命令</p>
+<ol>
+<li>安装git</li>
+</ol>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apk add git</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>用于在当前用户的主目录下创建一个名为 “obsidian” 的新文件夹</li>
+</ol>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~ &amp;&amp; <span class="built_in">mkdir</span> obsidian</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>执行以下命令会打开手机文件管理器，之后需要选中本地的obsidian文件夹，点击完成。这样就让obsidian软件中的math文件夹，装载到ish上的obsidian文件夹内 ，之后对于obsidian软件内math文件的修改，iSH上也同步修改</li>
+</ol>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount -t ios . obsidian</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>关键操作其实就是第三步这句，有效联通了本地文件夹和ish文件夹。明白这一点，之后利用github做其他软件的多端同步也不是问题。</p>
+<p>当时打开ish我还在想怎么找本地路径，原来是直接挂载上去，方便<del>太方便了</del></p>
+<p>关于linux的mount指令，可以看这个大佬的，写得很详细：</p>
+<p><a target="_blank" rel="noopener" href="https://zh-liang-cn.github.io/2014/05/23/linux-mount-command/">Linux mount命令详解</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/20/brain/2024-09-20-obsidian%20ios%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%90%8C%E6%AD%A5%E8%B6%85%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/" data-id="cmfp6md4f0005si2b1yw57nbn" data-title="obsidian ios多平台同步超完美方案" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86/" rel="tag">笔记管理</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-09-14-微信引入个人机器人踩雷篇" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/14/engineering/2024-09-14-%E5%BE%AE%E4%BF%A1%E5%BC%95%E5%85%A5%E4%B8%AA%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B8%A9%E9%9B%B7%E7%AF%87/" class="article-date">
+  <time class="dt-published" datetime="2024-09-14T01:53:31.000Z" itemprop="datePublished">2024-09-14</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/14/engineering/2024-09-14-%E5%BE%AE%E4%BF%A1%E5%BC%95%E5%85%A5%E4%B8%AA%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B8%A9%E9%9B%B7%E7%AF%87/">微信引入个人机器人踩雷篇</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>如题。这个技术已经很成熟很方便了，具体可以看这个库：<br><a target="_blank" rel="noopener" href="https://github.com/zhayujie/chatgpt-on-wechat">chatgpt-on-wechat</a></p>
+<p>简单来说就是，如果你有一个服务器，跟着教程几条命令然后扫个码就可以使用了。</p>
+<p>一些踩坑点：<br>我使用的是个人微信小号作为机器人，这个微信是刚注册的，因此一开始会报错，绑定一下银行卡实名认证就可以了。</p>
+<p>登录之后，切回常用微信，结果也一直报错，发消息没有反应。后来检查发现是因为移动端不登陆也会导致桌面端被踢出，这太折磨了</p>
+<p>如果你想看详细报错，最好一开始部署的时候就在config.json里加一条：<code>&quot;debug&quot;: ture</code>，这样会打印更具体的错误原因，比如，我在实名认证、登录且不切号如此这般操作了多次后，发现我的环境没有装gemini所需的依赖：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -U google-generativeai</span><br></pre></td></tr></table></figure>
+
+<p>顺带一提，gemini提供了15RPM（每分钟请求数）;100万 TPM（每分钟令牌）;1500 RPD（每天请求数）的免费额度，所以我用的是gemini。相应的，要在config.json中添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">  &quot;model&quot;: &quot;gemini-1.5-pro&quot;,</span><br><span class="line">  &quot;gemini_api_key&quot;: &quot;YOUR API KEY&quot;,</span><br></pre></td></tr></table></figure>
+
+<p>于是装上依赖后，现在可以流畅使用了。</p>
+<p>另，每次重启都需要重新登陆，重启方法：</p>
+<p><code>ps -ef | grep app.py | grep -v grep</code><br>查询到进程pid（第一个数字）后，直接<br><code>kill [pid]</code><br>然后再运行<br><code>nohup python3 app.py &amp; tail -f nohup.out</code><br>如果你把日志关了，一方面可以自己去文件里看，另一方面可以再重新打印：<br><code>tail -f nohup.out</code></p>
+<p>该库提供了管理员命令功能，对机器人发送<code>[trigger word]#auth [password]</code>即可认证为管理员，从而可以发送各种口令，详细发送<code>#help</code>即可查看。</p>
+<p>发送指令需要加<code>[trigger word]</code>也是踩雷之后发现的，我在那儿发<code>#help</code>发半天触发不了，其实它做的逻辑是所有发给机器人的对话都要加上触发词才会识别，指令也一样。</p>
+<p>因此，你修改了config但实在不想重启，可以发送<code>#reconf</code>来重载config，不用重新登录。</p>
+<p>TODO:<br>提示可以修改管理员口令，但我在config里设置<code>passwd</code>或<code>password</code>都不可以，检查发现是因为这两个参数不在<code>config.py</code>里。需要解决如何设置管理员口令这个问题。</p>
+<p>目前的管理员口令是启动机器人后，在日志流上会显示一个随机的临时口令。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/14/engineering/2024-09-14-%E5%BE%AE%E4%BF%A1%E5%BC%95%E5%85%A5%E4%B8%AA%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B8%A9%E9%9B%B7%E7%AF%87/" data-id="cmfp6md5d002tsi2b1vvd0j3i" data-title="微信引入个人机器人踩雷篇" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="tag">黑科技</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-09-13-linux安装全局可用的conda+创建有root权限的新账号" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/13/engineering/2024-09-13-linux%E5%AE%89%E8%A3%85%E5%85%A8%E5%B1%80%E5%8F%AF%E7%94%A8%E7%9A%84conda+%E5%88%9B%E5%BB%BA%E6%9C%89root%E6%9D%83%E9%99%90%E7%9A%84%E6%96%B0%E8%B4%A6%E5%8F%B7/" class="article-date">
+  <time class="dt-published" datetime="2024-09-13T06:12:06.000Z" itemprop="datePublished">2024-09-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/environment/">environment</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/13/engineering/2024-09-13-linux%E5%AE%89%E8%A3%85%E5%85%A8%E5%B1%80%E5%8F%AF%E7%94%A8%E7%9A%84conda+%E5%88%9B%E5%BB%BA%E6%9C%89root%E6%9D%83%E9%99%90%E7%9A%84%E6%96%B0%E8%B4%A6%E5%8F%B7/">linux安装全局可用的conda</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/steinven/p/16190464.html" title="发布于 2022-04-25 15:35">Linux为所有用户安装Miniconda</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/binyue/p/4702179.html" title="发布于 2014-10-12 15:38">Linux创建用户并赋予Root权限</a></li>
+</ul>
+<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="创建新用户并设置root权限"><a href="#创建新用户并设置root权限" class="headerlink" title="创建新用户并设置root权限"></a>创建新用户并设置root权限</h2><p>使用root账号创建新用户：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useradd newuser -m -g root -s /bin/bash</span><br></pre></td></tr></table></figure>
+<p>设置新用户密码：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd newuser</span><br></pre></td></tr></table></figure>
+<p>编辑sudoer文件：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/sudoers</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>找到<code>root    ALL=(ALL:ALL) ALL</code>，在该行下添加<code>newuser    ALL=(ALL:ALL)NOPASSWD:ALL</code></li>
+<li><code>crtl+X</code>后<code>Y</code>后回车，保存退出</li>
+</ul>
+<p><code>su newuser</code>切换至新用户，可以执行一些sudo任务看看是否有了权限。</p>
+<h2 id="安装全局可用的conda"><a href="#安装全局可用的conda" class="headerlink" title="安装全局可用的conda"></a>安装全局可用的conda</h2><blockquote>
+<p>以下操作在新用户中实行</p>
+</blockquote>
+<p>导航至<code>/opt</code>文件夹。或者<code>/usr</code>（该选项未经测试）<br>创建conda文件夹（以miniconda为例）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> -p ./miniconda3</span><br></pre></td></tr></table></figure>
+<p>变更文件夹权限为所有人可读写</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> 777 miniconda3/</span><br></pre></td></tr></table></figure>
+<p>下载miniconda安装文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ./miniconda3/miniconda.sh</span><br></pre></td></tr></table></figure>
+<p>安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash ./miniconda3/miniconda.sh -b -u -p ./miniconda3</span><br></pre></td></tr></table></figure>
+<p>初始化</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./miniconda3/bin/conda init bash</span><br></pre></td></tr></table></figure>
+<p>此时是在新用户中完成了初始化。如果其他用户想要使用，登录账号后导航到<code>/opt</code>文件夹执行同样的命令即可。</p>
+<p>重新启动终端，你会发现已经进入了conda的base环境。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/13/engineering/2024-09-13-linux%E5%AE%89%E8%A3%85%E5%85%A8%E5%B1%80%E5%8F%AF%E7%94%A8%E7%9A%84conda+%E5%88%9B%E5%BB%BA%E6%9C%89root%E6%9D%83%E9%99%90%E7%9A%84%E6%96%B0%E8%B4%A6%E5%8F%B7/" data-id="cmfp6md5c002rsi2b0veza2ei" data-title="linux安装全局可用的conda" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-09-13-pip国内加速" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/13/engineering/2024-09-13-pip%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F/" class="article-date">
+  <time class="dt-published" datetime="2024-09-13T05:39:16.000Z" itemprop="datePublished">2024-09-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/%E5%8A%A0%E9%80%9F/">加速</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/13/engineering/2024-09-13-pip%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F/">pip国内加速</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>以下是一些常用的国内pip镜像源：</p>
+<ul>
+<li>阿里云：<a target="_blank" rel="noopener" href="https://mirrors.aliyun.com/pypi/simple/">https://mirrors.aliyun.com/pypi/simple/</a></li>
+<li>清华大学：<a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple/">https://pypi.tuna.tsinghua.edu.cn/simple/</a></li>
+<li>中国科技大学：<a target="_blank" rel="noopener" href="https://pypi.mirrors.ustc.edu.cn/simple/">https://pypi.mirrors.ustc.edu.cn/simple/</a></li>
+<li>豆瓣：<a target="_blank" rel="noopener" href="http://pypi.douban.com/simple/">http://pypi.douban.com/simple/</a></li>
+</ul>
+<p>可以在使用pip命令时指定镜像源，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ numpy</span><br></pre></td></tr></table></figure>
+
+<p>或者，也可以设置一个全局的配置文件，这样在每次使用pip时都会使用这个镜像源。在你的用户目录下创建或修改.pip&#x2F;pip.conf文件，内容如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url=https://mirrors.aliyun.com/pypi/simple/</span><br><span class="line"></span><br><span class="line">[install]</span><br><span class="line">trusted-host=mirrors.cloud.aliyuncs.com</span><br></pre></td></tr></table></figure>
+
+<p>这样，你在使用pip时就会自动使用镜像源了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/13/engineering/2024-09-13-pip%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F/" data-id="cmfp6md5e002vsi2b5a2n0fk9" data-title="pip国内加速" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/environment/" rel="tag">environment</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-debug/2024-09-12-记一次离奇的linux-ssh登录bug" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/12/debug/2024-09-12-%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A6%BB%E5%A5%87%E7%9A%84linux-ssh%E7%99%BB%E5%BD%95bug/" class="article-date">
+  <time class="dt-published" datetime="2024-09-12T09:16:10.000Z" itemprop="datePublished">2024-09-12</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/debug/">debug</a>►<a class="article-category-link" href="/categories/debug/linux/">linux</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/12/debug/2024-09-12-%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A6%BB%E5%A5%87%E7%9A%84linux-ssh%E7%99%BB%E5%BD%95bug/">记一次离奇的linux-ssh登录bug</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>遇到了一个脑瘫错误，查了半天查到一样的问题</p>
+<p><a target="_blank" rel="noopener" href="https://askubuntu.com/questions/1404304/sudo-su-command-not-working-su-failed-to-execute-root-no-such-file-or-director">sudo su command not working su: failed to execute root: No such file or directory</a></p>
+<p>目前已根据文档中提到的方法解决，即修改<code>/etc/passwd</code>文件中的<code>root:x:0:0:root:/root:root</code>。当然，在我的问题里，这个错误行是<code>root:x:0:0:root:/root:myusername</code></p>
+<p>具体是什么原因引起的已经不可追溯了，推测与我想修改新用户的shell时执行的一些操作有关，例如<code>chsh</code>相关操作。</p>
+<p>实际上这个问题并不是我在切换用户时发现的，而是连接ssh时突然连不上了，报错belike：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[16:40:45.445] Got some output, clearing connection timeout</span><br><span class="line">[16:40:45.642] &gt; root@xxxhost: Permission denied (publickey).</span><br><span class="line">[16:40:45.663] &gt; 过程试图写入的管道不存在。</span><br></pre></td></tr></table></figure>
+
+<p>还好此时我还有一个vscode窗口是连着这个服务器的root账号的，真是吓出一身冷汗，立刻开始搜索办法。结果当然是五花八门，笔者大量使用<code>sudoedit /etc/ssh/sshd_config</code>来修改ssh设定，依旧没有任何用处，期间还检查了<code>.ssh</code>下的公钥，也都是正确的。</p>
+<p>所以说debug是非常看运气的，主要这个环节的报错是<strong>Permission denied (publickey)</strong>，可以说相当具有迷惑性了，想到切换用户也只是病急乱投医地碰运气，思路是回溯出错环节-&gt;之前设置新用户相关时，发现切换用户需要密码，因此重设了root密码-&gt;想着再切换一次用户（这个思路是多么离奇，正常来说是完全无用的行为）-&gt;发现切不回去了-&gt;发现事情真相……</p>
+<p>是的，聪明的你已经发现了，最终错因与重设root密码这一操作完全没有关系，这就是debug的魅力，即毫无方法论，除非你有很强的知识储备。然而知识不就是在无数次没头脑的debug中学习的吗？</p>
+<p>另，补充修改系统文件的命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/passwd</span><br></pre></td></tr></table></figure>
+<p>或：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudoedit /etc/passwd</span><br></pre></td></tr></table></figure>
+
+<p>编辑完成后，<code>ctrl+X</code>保存退出。</p>
+<p>有时修改前也要注意备份，养成好习惯：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">cp</span> /etc/passwd /etc/passwd.bak</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/12/debug/2024-09-12-%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A6%BB%E5%A5%87%E7%9A%84linux-ssh%E7%99%BB%E5%BD%95bug/" data-id="cmfp6md4z0017si2b789tg2jf" data-title="记一次离奇的linux-ssh登录bug" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/" rel="tag">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh/" rel="tag">ssh</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-09-11-git版本管理常见技巧" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/11/engineering/2024-09-11-git%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7/" class="article-date">
+  <time class="dt-published" datetime="2024-09-11T06:10:57.000Z" itemprop="datePublished">2024-09-11</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/git/">git</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/11/engineering/2024-09-11-git%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7/">git版本管理常见技巧</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="强制远程覆盖本地分支"><a href="#强制远程覆盖本地分支" class="headerlink" title="强制远程覆盖本地分支"></a>强制远程覆盖本地分支</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all &amp;&amp; git reset --hard origin/master &amp;&amp; git pull</span><br></pre></td></tr></table></figure>
+<p>其中<code>origin/master</code>为远程分支名，查询相应的远程分支名请使用：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -r</span><br></pre></td></tr></table></figure>
+<p>拓展：查询本地仓库分支名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure>
+
+<p>Tips：<br>不起效的话，先把本地分支的更改暂存，然后执行<code>git reset</code>试试。</p>
+<h2 id="撤回已提交远程的commit，更改暂存本地"><a href="#撤回已提交远程的commit，更改暂存本地" class="headerlink" title="撤回已提交远程的commit，更改暂存本地"></a>撤回已提交远程的commit，更改暂存本地</h2><h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/FloraCHY/article/details/115380416">git撤销已经提交到远程分支的代码</a></p>
+<h3 id="省流"><a href="#省流" class="headerlink" title="省流"></a>省流</h3><ol>
+<li>开两个<code>git bash</code></li>
+<li>其中一个使用命令<code>git log</code>查询需回退的commit相应版本号，复制</li>
+<li>另一个使用命令：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft 版本号 </span><br></pre></td></tr></table></figure>
+<p>拓展：撤回上一个提交：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD~1</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>强制同步到远程分支：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --force</span><br></pre></td></tr></table></figure>
+<p>此操作不影响本地更改</p>
+<p>vscode中手动撤回上次提交也是很方便的</p>
+<h2 id="合并某次提交至指定分支"><a href="#合并某次提交至指定分支" class="headerlink" title="合并某次提交至指定分支"></a>合并某次提交至指定分支</h2><p>与上一主题类似，取版本号后，切换到需要<strong>合并至</strong>的分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout branch-name</span><br></pre></td></tr></table></figure>
+<p>拓展：新建分支</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b new-branch-name</span><br></pre></td></tr></table></figure>
+<p>合并提交至本分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git cherry-pick &lt;commit-hash&gt;</span><br></pre></td></tr></table></figure>
+<p>执行后，若有冲突，会在相应文件中显示，vscode打开可一一核对，核对后在右下角检查完成合并即可。</p>
+<p>TODO: 如何快速强制覆盖</p>
+<h2 id="与主库同步进度（变基）"><a href="#与主库同步进度（变基）" class="headerlink" title="与主库同步进度（变基）"></a>与主库同步进度（变基）</h2><p>在提交 Pull Request (PR) 之前，建议你将你的分支变基到最新的远程主库，这样可以确保你的代码和主库是最新的，从而减少潜在的合并冲突。这是一个良好的实践。</p>
+<ol>
+<li><p><strong>获取最新的远程分支信息</strong>：</p>
+<p>首先，你需要确保你的本地仓库是最新的。运行以下命令来获取远程代码的最新状态：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换到你的工作分支</strong>：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout feature-branch</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>执行变基</strong>：</p>
+<p>现在，可以将你的分支变基到最新的远程主分支（例如 <code>main</code> 或 <code>develop</code>，具体取决于你的项目）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase origin/main</span><br></pre></td></tr></table></figure>
+
+<p>这将重放你的提交在最新的远程分支之上，确保你的代码是基于最新状态的。</p>
+</li>
+<li><p><strong>解决冲突（如果有的话）</strong>：</p>
+<p>如果在变基过程中遇到冲突，Git 会提示你解决这些冲突。你需要手动编辑相关文件以解决冲突。解决完后，继续变基：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;resolved_file&gt;</span><br><span class="line">git rebase --<span class="built_in">continue</span></span><br></pre></td></tr></table></figure>
+
+<p>如果需要放弃变基，可以运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase --abort</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>推送到远程库</strong>：</p>
+<p>一旦变基成功，就可以推送了。<br>有时，你需要强制推送你的分支到远程库，因为变基会更改提交历史：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin feature-branch --force</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意</strong>: 强制推送会覆盖远程分支的历史，请确保你是在你自己的特性分支上，且对其他人没有影响。</p>
+</li>
+</ol>
+<h2 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h2><p>要删除 Git 中的远程分支，可以使用以下命令。首先，确保你已经在本地更新了远程分支列表，以便获取最新的状态。</p>
+<h3 id="1-更新远程分支列表"><a href="#1-更新远程分支列表" class="headerlink" title="1. 更新远程分支列表"></a>1. 更新远程分支列表</h3><p>你可以运行以下命令来更新远程分支信息：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --prune</span><br></pre></td></tr></table></figure>
+
+<p>这将清理本地引用中已经被删除的远程分支。</p>
+<h3 id="2-删除远程分支"><a href="#2-删除远程分支" class="headerlink" title="2. 删除远程分支"></a>2. 删除远程分支</h3><p>要删除远程分支，使用以下命令格式：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;remote_name&gt; --delete &lt;branch_name&gt;</span><br></pre></td></tr></table></figure>
+
+<p>例如，如果你要删除名为 <code>feature-branch</code> 的远程分支，且远程仓库的名称为 <code>origin</code>，可以运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin --delete feature-branch</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-验证删除"><a href="#3-验证删除" class="headerlink" title="3. 验证删除"></a>3. 验证删除</h3><p>删除远程分支后，你可以使用以下命令查看远程分支列表，确认分支是否已被删除：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -r</span><br></pre></td></tr></table></figure>
+
+<p>这将列出所有远程分支，以确保你所删除的分支不再显示在列表中。</p>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>确保在删除远程分支之前，其他团队成员或依赖该分支的工作已做好准备。</li>
+<li>删除远程分支是不可逆的操作，请确认操作的必要性。</li>
+</ul>
+<h2 id="删除本地分支"><a href="#删除本地分支" class="headerlink" title="删除本地分支"></a>删除本地分支</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d &lt;branch-name&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这里的 <code>&lt;branch-name&gt;</code> 应该替换为你想要删除的分支的名称。</p>
+<p>请注意，这个命令只会删除已经合并到主干分支（通常是 <code>master</code> 或 <code>main</code>）的分支。如果你想要强制删除一个尚未合并的分支，可以使用：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -D &lt;branch-name&gt;</span><br></pre></td></tr></table></figure>
+
+<p>强制删除时要特别小心，因为未合并的更改将会丢失。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/11/engineering/2024-09-11-git%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7/" data-id="cmfp6md5b002osi2bf2pra5i5" data-title="git版本管理常见技巧" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" rel="tag">版本管理</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-engineering/2024-09-10-linux(wget)国内批量下载huggingface模型shell脚本" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/10/engineering/2024-09-10-linux(wget)%E5%9B%BD%E5%86%85%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BDhuggingface%E6%A8%A1%E5%9E%8Bshell%E8%84%9A%E6%9C%AC/" class="article-date">
+  <time class="dt-published" datetime="2024-09-10T06:16:41.000Z" itemprop="datePublished">2024-09-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/%E6%A8%A1%E5%9E%8B%E5%B7%A5%E7%A8%8B/">模型工程</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/09/10/engineering/2024-09-10-linux(wget)%E5%9B%BD%E5%86%85%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BDhuggingface%E6%A8%A1%E5%9E%8Bshell%E8%84%9A%E6%9C%AC/">linux(wget)国内批量下载huggingface模型shell脚本</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>发现有别人写好的更好用的脚本，功能完善，支持多种下载方式，且多线程。<br><a target="_blank" rel="noopener" href="https://gist.github.com/padeoe/697678ab8e528b85a2a7bddafea1fa4f" title="CLI-Tool for download Huggingface models and datasets with aria2&#x2F;wget+git">CLI-Tool for download Huggingface models an</a><br>国内支持：将脚本44行的<code>HF_ENDPOINT=$&#123;HF_ENDPOINT:-&quot;https://huggingface.co&quot;&#125;</code>变更为<code>HF_ENDPOINT=$&#123;HF_ENDPOINT:-&quot;https://hf-mirror.com&quot;&#125;</code>即可。</p>
+<p>其余使用方法详见教程。</p>
+<h1 id="原笔记"><a href="#原笔记" class="headerlink" title="原笔记"></a>原笔记</h1><p>今天这个笔记是绝对的常用，因为是shell脚本，理论上不是huggingface的下载链接也可以用，可以说相当实用了（笔者在不同的公司写了三次这个脚本，要是早点写笔记就不用这样了，冷抖泪）</p>
+<p>实现批量下载+自动重命名文件，不需要自己一个一个对着链接重命名啦，比市面上的都快捷。原理很简单，是自动提取url最后一个”&#x2F;“后的字段，然后根据<code>?</code>拆成两部分，只取第一部分，这样就把原链接中的查询字段等多余字段去除，提取正确的文件名。</p>
+<p>使用方式：</p>
+<ol>
+<li>创建一个txt文档，将你需要下载的文件url一行一个粘贴进去</li>
+<li>把这个脚本拖到下载目标文件夹下</li>
+<li>目标文件夹下执行<code>bash yourscriptname.sh</code></li>
+<li>命令行填入之前创建的txt文件名</li>
+<li>回车执行即可，日志会记录在<code>download_log.txt</code>，如果命令行没有输出就去日志里看一下</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/bash</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">请确保该脚本有执行权限，可以通过<span class="built_in">chmod</span> +x scriptname.sh赋予</span></span><br><span class="line">echo &quot;请输入urltxt路径:&quot;</span><br><span class="line">read filepath</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">指定日志文件</span></span><br><span class="line">log_file=&quot;download_log.txt&quot;</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">清空或创建日志文件</span></span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash"><span class="string">&quot;<span class="variable">$log_file</span>&quot;</span></span></span><br><span class="line"></span><br><span class="line">while read -r url; do</span><br><span class="line">    # 提取URL中最后一个&#x27;/&#x27;之后的内容，再按&#x27;?&#x27;分割取第一部分作为文件名</span><br><span class="line">    filename=$(echo &quot;$&#123;url##*/&#125;&quot; | cut -d &#x27;?&#x27; -f 1)</span><br><span class="line">    # 检查文件是否已存在</span><br><span class="line">    if [ -e &quot;$filename&quot; ]; then</span><br><span class="line">        echo &quot;文件&#x27;$filename&#x27;已存在，跳过下载。&quot; &gt;&gt; &quot;$log_file&quot;</span><br><span class="line">        continue</span><br><span class="line">    fi</span><br><span class="line">    # 使用wget下载资源并重命名，同时记录日志</span><br><span class="line">    wget --tries=3 --timeout=30 --no-clobber -nv -O &quot;$filename&quot; &quot;$url&quot; 2&gt;&gt; &quot;$log_file&quot;</span><br><span class="line">    if [ $? -eq 0 ]; then</span><br><span class="line">        echo &quot;下载完成并已重命名为: $filename&quot; &gt;&gt; &quot;$log_file&quot;</span><br><span class="line">    else</span><br><span class="line">        echo &quot;下载&#x27;$url&#x27;失败，请检查URL是否正确或网络连接是否正常。&quot; &gt;&gt; &quot;$log_file&quot;</span><br><span class="line">    fi</span><br><span class="line">done &lt; &quot;$filepath&quot;</span><br><span class="line"></span><br><span class="line">echo &quot;下载任务已完成，详细情况请查看$log_file&quot;</span><br></pre></td></tr></table></figure>
+
+<p>hf国内镜像站：<a target="_blank" rel="noopener" href="https://hf-mirror.com/">https://hf-mirror.com/</a></p>
+<p>本脚本下一轮迭代计划：<br>实现解析hf-url自动创建文件夹，例如<a target="_blank" rel="noopener" href="https://hf-mirror.com/Qwen/Qwen2-VL-7B-Instruct/resolve/main/README.md?download=true%EF%BC%8C%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BA%60Qwen2-VL-7B-Instruct/resolve/main/%60%E6%96%87%E4%BB%B6%E5%A4%B9%E5%B9%B6%E4%B8%8B%E8%BD%BD%E8%87%B3%E8%AF%A5%E8%B7%AF%E5%BE%84%E3%80%82">https://hf-mirror.com/Qwen/Qwen2-VL-7B-Instruct/resolve/main/README.md?download=true，实现自动创建`Qwen2-VL-7B-Instruct/resolve/main/`文件夹并下载至该路径。</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/10/engineering/2024-09-10-linux(wget)%E5%9B%BD%E5%86%85%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BDhuggingface%E6%A8%A1%E5%9E%8Bshell%E8%84%9A%E6%9C%AC/" data-id="cmfp6md5b002ksi2b5vxca1g1" data-title="linux(wget)国内批量下载huggingface模型shell脚本" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell%E8%84%9A%E6%9C%AC/" rel="tag">shell脚本</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="tag">黑科技</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/3/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/5/">Next &raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/coding/">coding</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/debug/">debug</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/debug/coding/">coding</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/debug/linux/">linux</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/diary/">diary</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/diary/24%E5%B9%B4/">24年</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/">engineering</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/GPU/">GPU</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/LLM/">LLM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/environment/">environment</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/linux/">linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/pool/">pool</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/win/">win</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/%E5%8A%A0%E9%80%9F/">加速</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/%E6%A8%A1%E5%9E%8B%E5%B7%A5%E7%A8%8B/">模型工程</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/environment/">environment</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/game/">game</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/language/">language</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/language/english/">english</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/math/">math</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A3%A8%E5%88%80/">磨刀</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A3%A8%E5%88%80/obsidian/">obsidian</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E8%80%83/">软考</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E8%80%83/%E5%85%AC%E5%85%B1%E8%AF%BE/">公共课</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/A2E4D/" rel="tag">A2E4D</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CUDA/" rel="tag">CUDA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Elasticsearch/" rel="tag">Elasticsearch</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GPU/" rel="tag">GPU</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SD/" rel="tag">SD</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQLite/" rel="tag">SQLite</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/conda/" rel="tag">conda</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/curl/" rel="tag">curl</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/environment/" rel="tag">environment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/latex/" rel="tag">latex</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/" rel="tag">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ppo/" rel="tag">ppo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/" rel="tag">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell%E8%84%9A%E6%9C%AC/" rel="tag">shell脚本</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/" rel="tag">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/transformers/" rel="tag">transformers</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/win/" rel="tag">win</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8B%E8%BD%BD/" rel="tag">下载</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%9A%E8%BF%9B%E7%A8%8B/" rel="tag">多进程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%82%E6%AD%A5-%E5%8D%8F%E7%A8%8B/" rel="tag">异步&#x2F;协程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/" rel="tag">数据处理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/" rel="tag">文件传输</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/" rel="tag">模型训练</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/" rel="tag">模型部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%88%AC%E8%99%AB/" rel="tag">爬虫</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" rel="tag">版本管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8C%AB%E5%9B%BD%E5%BB%BA%E8%AE%BE%E8%80%85/" rel="tag">猫国建设者</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%8B%E5%88%80%E9%B1%BC-%E6%98%AF%E5%A4%A7%E8%87%A3%E7%B2%BE%E8%AE%B2/" rel="tag">秋刀鱼-是大臣精讲</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86/" rel="tag">笔记管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BA%BF%E7%A8%8B/" rel="tag">线程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BB%98%E5%9B%BE/" rel="tag">绘图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86/" rel="tag">自然哲学的数学原理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E8%AF%AD%E5%85%94%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">英语兔语法学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BA%E6%96%87/" rel="tag">论文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" rel="tag">软件工程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="tag">黑科技</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/A2E4D/" style="font-size: 10px;">A2E4D</a> <a href="/tags/CUDA/" style="font-size: 10px;">CUDA</a> <a href="/tags/Elasticsearch/" style="font-size: 12px;">Elasticsearch</a> <a href="/tags/GPU/" style="font-size: 10px;">GPU</a> <a href="/tags/SD/" style="font-size: 10px;">SD</a> <a href="/tags/SQLite/" style="font-size: 10px;">SQLite</a> <a href="/tags/conda/" style="font-size: 12px;">conda</a> <a href="/tags/curl/" style="font-size: 10px;">curl</a> <a href="/tags/docker/" style="font-size: 14px;">docker</a> <a href="/tags/environment/" style="font-size: 14px;">environment</a> <a href="/tags/github/" style="font-size: 12px;">github</a> <a href="/tags/latex/" style="font-size: 10px;">latex</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/ppo/" style="font-size: 10px;">ppo</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/shell%E8%84%9A%E6%9C%AC/" style="font-size: 10px;">shell脚本</a> <a href="/tags/ssh/" style="font-size: 12px;">ssh</a> <a href="/tags/transformers/" style="font-size: 10px;">transformers</a> <a href="/tags/win/" style="font-size: 12px;">win</a> <a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 10px;">下载</a> <a href="/tags/%E5%A4%9A%E8%BF%9B%E7%A8%8B/" style="font-size: 10px;">多进程</a> <a href="/tags/%E5%BC%82%E6%AD%A5-%E5%8D%8F%E7%A8%8B/" style="font-size: 10px;">异步/协程</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/" style="font-size: 14px;">数据处理</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/" style="font-size: 10px;">文件传输</a> <a href="/tags/%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/" style="font-size: 12px;">模型训练</a> <a href="/tags/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/" style="font-size: 10px;">模型部署</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 12px;">爬虫</a> <a href="/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" style="font-size: 10px;">版本管理</a> <a href="/tags/%E7%8C%AB%E5%9B%BD%E5%BB%BA%E8%AE%BE%E8%80%85/" style="font-size: 10px;">猫国建设者</a> <a href="/tags/%E7%A7%8B%E5%88%80%E9%B1%BC-%E6%98%AF%E5%A4%A7%E8%87%A3%E7%B2%BE%E8%AE%B2/" style="font-size: 10px;">秋刀鱼-是大臣精讲</a> <a href="/tags/%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86/" style="font-size: 12px;">笔记管理</a> <a href="/tags/%E7%BA%BF%E7%A8%8B/" style="font-size: 10px;">线程</a> <a href="/tags/%E7%BB%98%E5%9B%BE/" style="font-size: 10px;">绘图</a> <a href="/tags/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86/" style="font-size: 14px;">自然哲学的数学原理</a> <a href="/tags/%E8%8B%B1%E8%AF%AD%E5%85%94%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 16px;">英语兔语法学习笔记</a> <a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 12px;">论文</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" style="font-size: 10px;">软件工程</a> <a href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" style="font-size: 18px;">黑科技</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/09/">September 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/07/">July 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/05/">May 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/04/">April 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/03/">March 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/02/">February 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">January 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/06/">June 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/09/18/aaa/">aaa</a>
+          </li>
+        
+          <li>
+            <a href="/2025/09/18/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2025/07/10/pool/2025-07-10-%E6%89%B9%E9%87%8F%E8%B0%83%E6%95%B4python%E8%84%9A%E6%9C%ACimport%E9%A1%BA%E5%BA%8F/">批量调整python脚本import顺序</a>
+          </li>
+        
+          <li>
+            <a href="/2025/05/22/pool/2025-05-22-sphinx%E6%96%87%E6%A1%A3%E6%9E%84%E5%BB%BA%E7%AC%94%E8%AE%B0/">sphinx文档构建笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2025/05/06/pool/2025-05-06-AIR%20A%20Systematic%20Analysis%20of%20Annotations,%20Instructions,%20and%20Response%20Pairs%20in%20Preference%20Dataset/">AIR: A Systematic Analysis of Annotations, Instructions, and Response Pairs in Preference Dataset</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

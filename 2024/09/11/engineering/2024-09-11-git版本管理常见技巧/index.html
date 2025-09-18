@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>git版本管理常见技巧 | chic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="强制远程覆盖本地分支1git fetch --all &amp;&amp; git reset --hard origin&#x2F;master &amp;&amp; git pull 其中origin&#x2F;master为远程分支名，查询相应的远程分支名请使用： 1git branch -r 拓展：查询本地仓库分支名 1git branch -a  Tips：不起效的话，先把本地分支的更改暂存，然后执行git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git版本管理常见技巧">
+<meta property="og:url" content="http://example.com/2024/09/11/engineering/2024-09-11-git%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7/index.html">
+<meta property="og:site_name" content="chic">
+<meta property="og:description" content="强制远程覆盖本地分支1git fetch --all &amp;&amp; git reset --hard origin&#x2F;master &amp;&amp; git pull 其中origin&#x2F;master为远程分支名，查询相应的远程分支名请使用： 1git branch -r 拓展：查询本地仓库分支名 1git branch -a  Tips：不起效的话，先把本地分支的更改暂存，然后执行git">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-09-11T06:10:57.000Z">
+<meta property="article:modified_time" content="2025-09-18T09:01:52.334Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="github">
+<meta property="article:tag" content="版本管理">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="chic" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">chic</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-engineering/2024-09-11-git版本管理常见技巧" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/09/11/engineering/2024-09-11-git%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7/" class="article-date">
+  <time class="dt-published" datetime="2024-09-11T06:10:57.000Z" itemprop="datePublished">2024-09-11</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/engineering/">engineering</a>►<a class="article-category-link" href="/categories/engineering/git/">git</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      git版本管理常见技巧
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="强制远程覆盖本地分支"><a href="#强制远程覆盖本地分支" class="headerlink" title="强制远程覆盖本地分支"></a>强制远程覆盖本地分支</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all &amp;&amp; git reset --hard origin/master &amp;&amp; git pull</span><br></pre></td></tr></table></figure>
+<p>其中<code>origin/master</code>为远程分支名，查询相应的远程分支名请使用：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -r</span><br></pre></td></tr></table></figure>
+<p>拓展：查询本地仓库分支名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure>
+
+<p>Tips：<br>不起效的话，先把本地分支的更改暂存，然后执行<code>git reset</code>试试。</p>
+<h2 id="撤回已提交远程的commit，更改暂存本地"><a href="#撤回已提交远程的commit，更改暂存本地" class="headerlink" title="撤回已提交远程的commit，更改暂存本地"></a>撤回已提交远程的commit，更改暂存本地</h2><h3 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/FloraCHY/article/details/115380416">git撤销已经提交到远程分支的代码</a></p>
+<h3 id="省流"><a href="#省流" class="headerlink" title="省流"></a>省流</h3><ol>
+<li>开两个<code>git bash</code></li>
+<li>其中一个使用命令<code>git log</code>查询需回退的commit相应版本号，复制</li>
+<li>另一个使用命令：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft 版本号 </span><br></pre></td></tr></table></figure>
+<p>拓展：撤回上一个提交：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD~1</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li>强制同步到远程分支：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --force</span><br></pre></td></tr></table></figure>
+<p>此操作不影响本地更改</p>
+<p>vscode中手动撤回上次提交也是很方便的</p>
+<h2 id="合并某次提交至指定分支"><a href="#合并某次提交至指定分支" class="headerlink" title="合并某次提交至指定分支"></a>合并某次提交至指定分支</h2><p>与上一主题类似，取版本号后，切换到需要<strong>合并至</strong>的分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout branch-name</span><br></pre></td></tr></table></figure>
+<p>拓展：新建分支</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b new-branch-name</span><br></pre></td></tr></table></figure>
+<p>合并提交至本分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git cherry-pick &lt;commit-hash&gt;</span><br></pre></td></tr></table></figure>
+<p>执行后，若有冲突，会在相应文件中显示，vscode打开可一一核对，核对后在右下角检查完成合并即可。</p>
+<p>TODO: 如何快速强制覆盖</p>
+<h2 id="与主库同步进度（变基）"><a href="#与主库同步进度（变基）" class="headerlink" title="与主库同步进度（变基）"></a>与主库同步进度（变基）</h2><p>在提交 Pull Request (PR) 之前，建议你将你的分支变基到最新的远程主库，这样可以确保你的代码和主库是最新的，从而减少潜在的合并冲突。这是一个良好的实践。</p>
+<ol>
+<li><p><strong>获取最新的远程分支信息</strong>：</p>
+<p>首先，你需要确保你的本地仓库是最新的。运行以下命令来获取远程代码的最新状态：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换到你的工作分支</strong>：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout feature-branch</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>执行变基</strong>：</p>
+<p>现在，可以将你的分支变基到最新的远程主分支（例如 <code>main</code> 或 <code>develop</code>，具体取决于你的项目）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase origin/main</span><br></pre></td></tr></table></figure>
+
+<p>这将重放你的提交在最新的远程分支之上，确保你的代码是基于最新状态的。</p>
+</li>
+<li><p><strong>解决冲突（如果有的话）</strong>：</p>
+<p>如果在变基过程中遇到冲突，Git 会提示你解决这些冲突。你需要手动编辑相关文件以解决冲突。解决完后，继续变基：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;resolved_file&gt;</span><br><span class="line">git rebase --<span class="built_in">continue</span></span><br></pre></td></tr></table></figure>
+
+<p>如果需要放弃变基，可以运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase --abort</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>推送到远程库</strong>：</p>
+<p>一旦变基成功，就可以推送了。<br>有时，你需要强制推送你的分支到远程库，因为变基会更改提交历史：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin feature-branch --force</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意</strong>: 强制推送会覆盖远程分支的历史，请确保你是在你自己的特性分支上，且对其他人没有影响。</p>
+</li>
+</ol>
+<h2 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h2><p>要删除 Git 中的远程分支，可以使用以下命令。首先，确保你已经在本地更新了远程分支列表，以便获取最新的状态。</p>
+<h3 id="1-更新远程分支列表"><a href="#1-更新远程分支列表" class="headerlink" title="1. 更新远程分支列表"></a>1. 更新远程分支列表</h3><p>你可以运行以下命令来更新远程分支信息：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --prune</span><br></pre></td></tr></table></figure>
+
+<p>这将清理本地引用中已经被删除的远程分支。</p>
+<h3 id="2-删除远程分支"><a href="#2-删除远程分支" class="headerlink" title="2. 删除远程分支"></a>2. 删除远程分支</h3><p>要删除远程分支，使用以下命令格式：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push &lt;remote_name&gt; --delete &lt;branch_name&gt;</span><br></pre></td></tr></table></figure>
+
+<p>例如，如果你要删除名为 <code>feature-branch</code> 的远程分支，且远程仓库的名称为 <code>origin</code>，可以运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin --delete feature-branch</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-验证删除"><a href="#3-验证删除" class="headerlink" title="3. 验证删除"></a>3. 验证删除</h3><p>删除远程分支后，你可以使用以下命令查看远程分支列表，确认分支是否已被删除：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -r</span><br></pre></td></tr></table></figure>
+
+<p>这将列出所有远程分支，以确保你所删除的分支不再显示在列表中。</p>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>确保在删除远程分支之前，其他团队成员或依赖该分支的工作已做好准备。</li>
+<li>删除远程分支是不可逆的操作，请确认操作的必要性。</li>
+</ul>
+<h2 id="删除本地分支"><a href="#删除本地分支" class="headerlink" title="删除本地分支"></a>删除本地分支</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d &lt;branch-name&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这里的 <code>&lt;branch-name&gt;</code> 应该替换为你想要删除的分支的名称。</p>
+<p>请注意，这个命令只会删除已经合并到主干分支（通常是 <code>master</code> 或 <code>main</code>）的分支。如果你想要强制删除一个尚未合并的分支，可以使用：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -D &lt;branch-name&gt;</span><br></pre></td></tr></table></figure>
+
+<p>强制删除时要特别小心，因为未合并的更改将会丢失。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/09/11/engineering/2024-09-11-git%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B8%B8%E8%A7%81%E6%8A%80%E5%B7%A7/" data-id="cmfp6md5b002osi2bf2pra5i5" data-title="git版本管理常见技巧" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" rel="tag">版本管理</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2024/09/12/debug/2024-09-12-%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A6%BB%E5%A5%87%E7%9A%84linux-ssh%E7%99%BB%E5%BD%95bug/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          记一次离奇的linux-ssh登录bug
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2024/09/10/engineering/2024-09-10-linux(wget)%E5%9B%BD%E5%86%85%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BDhuggingface%E6%A8%A1%E5%9E%8Bshell%E8%84%9A%E6%9C%AC/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">linux(wget)国内批量下载huggingface模型shell脚本</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/coding/">coding</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/debug/">debug</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/debug/coding/">coding</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/debug/linux/">linux</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/diary/">diary</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/diary/24%E5%B9%B4/">24年</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/">engineering</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/GPU/">GPU</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/LLM/">LLM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/environment/">environment</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/linux/">linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/pool/">pool</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/win/">win</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/%E5%8A%A0%E9%80%9F/">加速</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/engineering/%E6%A8%A1%E5%9E%8B%E5%B7%A5%E7%A8%8B/">模型工程</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/environment/">environment</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/game/">game</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/language/">language</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/language/english/">english</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/math/">math</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A3%A8%E5%88%80/">磨刀</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A3%A8%E5%88%80/obsidian/">obsidian</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E8%80%83/">软考</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E8%80%83/%E5%85%AC%E5%85%B1%E8%AF%BE/">公共课</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/A2E4D/" rel="tag">A2E4D</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CUDA/" rel="tag">CUDA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Elasticsearch/" rel="tag">Elasticsearch</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GPU/" rel="tag">GPU</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SD/" rel="tag">SD</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQLite/" rel="tag">SQLite</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/conda/" rel="tag">conda</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/curl/" rel="tag">curl</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/docker/" rel="tag">docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/environment/" rel="tag">environment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/latex/" rel="tag">latex</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/" rel="tag">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ppo/" rel="tag">ppo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/" rel="tag">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell%E8%84%9A%E6%9C%AC/" rel="tag">shell脚本</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/" rel="tag">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/transformers/" rel="tag">transformers</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/win/" rel="tag">win</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8B%E8%BD%BD/" rel="tag">下载</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%9A%E8%BF%9B%E7%A8%8B/" rel="tag">多进程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%82%E6%AD%A5-%E5%8D%8F%E7%A8%8B/" rel="tag">异步&#x2F;协程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/" rel="tag">数据处理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/" rel="tag">文件传输</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/" rel="tag">模型训练</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/" rel="tag">模型部署</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%88%AC%E8%99%AB/" rel="tag">爬虫</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" rel="tag">版本管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8C%AB%E5%9B%BD%E5%BB%BA%E8%AE%BE%E8%80%85/" rel="tag">猫国建设者</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%8B%E5%88%80%E9%B1%BC-%E6%98%AF%E5%A4%A7%E8%87%A3%E7%B2%BE%E8%AE%B2/" rel="tag">秋刀鱼-是大臣精讲</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86/" rel="tag">笔记管理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BA%BF%E7%A8%8B/" rel="tag">线程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BB%98%E5%9B%BE/" rel="tag">绘图</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86/" rel="tag">自然哲学的数学原理</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E8%AF%AD%E5%85%94%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">英语兔语法学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BA%E6%96%87/" rel="tag">论文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" rel="tag">软件工程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="tag">黑科技</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/A2E4D/" style="font-size: 10px;">A2E4D</a> <a href="/tags/CUDA/" style="font-size: 10px;">CUDA</a> <a href="/tags/Elasticsearch/" style="font-size: 12px;">Elasticsearch</a> <a href="/tags/GPU/" style="font-size: 10px;">GPU</a> <a href="/tags/SD/" style="font-size: 10px;">SD</a> <a href="/tags/SQLite/" style="font-size: 10px;">SQLite</a> <a href="/tags/conda/" style="font-size: 12px;">conda</a> <a href="/tags/curl/" style="font-size: 10px;">curl</a> <a href="/tags/docker/" style="font-size: 14px;">docker</a> <a href="/tags/environment/" style="font-size: 14px;">environment</a> <a href="/tags/github/" style="font-size: 12px;">github</a> <a href="/tags/latex/" style="font-size: 10px;">latex</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/ppo/" style="font-size: 10px;">ppo</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/shell%E8%84%9A%E6%9C%AC/" style="font-size: 10px;">shell脚本</a> <a href="/tags/ssh/" style="font-size: 12px;">ssh</a> <a href="/tags/transformers/" style="font-size: 10px;">transformers</a> <a href="/tags/win/" style="font-size: 12px;">win</a> <a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 10px;">下载</a> <a href="/tags/%E5%A4%9A%E8%BF%9B%E7%A8%8B/" style="font-size: 10px;">多进程</a> <a href="/tags/%E5%BC%82%E6%AD%A5-%E5%8D%8F%E7%A8%8B/" style="font-size: 10px;">异步/协程</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/" style="font-size: 14px;">数据处理</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/" style="font-size: 10px;">文件传输</a> <a href="/tags/%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83/" style="font-size: 12px;">模型训练</a> <a href="/tags/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2/" style="font-size: 10px;">模型部署</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 12px;">爬虫</a> <a href="/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" style="font-size: 10px;">版本管理</a> <a href="/tags/%E7%8C%AB%E5%9B%BD%E5%BB%BA%E8%AE%BE%E8%80%85/" style="font-size: 10px;">猫国建设者</a> <a href="/tags/%E7%A7%8B%E5%88%80%E9%B1%BC-%E6%98%AF%E5%A4%A7%E8%87%A3%E7%B2%BE%E8%AE%B2/" style="font-size: 10px;">秋刀鱼-是大臣精讲</a> <a href="/tags/%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86/" style="font-size: 12px;">笔记管理</a> <a href="/tags/%E7%BA%BF%E7%A8%8B/" style="font-size: 10px;">线程</a> <a href="/tags/%E7%BB%98%E5%9B%BE/" style="font-size: 10px;">绘图</a> <a href="/tags/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86/" style="font-size: 14px;">自然哲学的数学原理</a> <a href="/tags/%E8%8B%B1%E8%AF%AD%E5%85%94%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 16px;">英语兔语法学习笔记</a> <a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 12px;">论文</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" style="font-size: 10px;">软件工程</a> <a href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" style="font-size: 18px;">黑科技</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/09/">September 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/07/">July 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/05/">May 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/04/">April 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/03/">March 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/02/">February 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">January 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/06/">June 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/09/18/aaa/">aaa</a>
+          </li>
+        
+          <li>
+            <a href="/2025/09/18/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2025/07/10/pool/2025-07-10-%E6%89%B9%E9%87%8F%E8%B0%83%E6%95%B4python%E8%84%9A%E6%9C%ACimport%E9%A1%BA%E5%BA%8F/">批量调整python脚本import顺序</a>
+          </li>
+        
+          <li>
+            <a href="/2025/05/22/pool/2025-05-22-sphinx%E6%96%87%E6%A1%A3%E6%9E%84%E5%BB%BA%E7%AC%94%E8%AE%B0/">sphinx文档构建笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2025/05/06/pool/2025-05-06-AIR%20A%20Systematic%20Analysis%20of%20Annotations,%20Instructions,%20and%20Response%20Pairs%20in%20Preference%20Dataset/">AIR: A Systematic Analysis of Annotations, Instructions, and Response Pairs in Preference Dataset</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
