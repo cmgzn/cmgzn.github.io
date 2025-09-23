@@ -233,7 +233,7 @@
             <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>如题所示。</p>
 <p>我的个人主页Use the <a target="_blank" rel="noopener" href="https://github.com/cotes2020/jekyll-theme-chirpy">Chirpy</a> theme for <a target="_blank" rel="noopener" href="https://jekyllrb.com/">Jekyll</a>，这套github page的部署方式有个问题，是写的文档必须以<code>YYYY-MM-DD-title</code>的格式命名，具体是<code>Jekyll</code>的限制还是<code>Chirpy</code>的限制我也不清楚。</p>
 <p>此外，文档开头也需要一组”—“包围的文档属性说明，形式如下：</p>
-<p><img src="/../../assets/img/Dingtalk_20240906094335.jpg" alt="文档属性说明"></p>
+<p><img src="https://cmgzn.github.io/image/20240906_3.jpg" alt="文档属性说明"></p>
 <p>这显然很麻烦，很快想到了用脚本或模板形式来快速创建符合格式的md文档。不想自己从头造轮子，马上想到的是利用vscode的活动模板，跟着下面这个教程做的：</p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_45522541/article/details/114033756">vscode中设置markdown的活动模板</a></p>
 <p>结合LLM，成功搞出了快速模板：</p>
@@ -249,10 +249,13 @@
 <li>与上一步同页，把新建日记存放位置改到<code>_post</code>里。我目前使用的方案是在<code>_post</code>下新建一个文件夹专门用来存放“日记”（其实是新笔记），写完笔记后把笔记转移到相应的其他文件夹下。obsidian新建日记的机制是，如果你在日记路径下已经有了一个名为当天日期的md文档，那点击日记只会跳转到该文档；如果你改了名字（例如在原标题上添加了实际笔记标题，如2024-09-06-今日笔记），那点击日记就会再新建一个日记（新的笔记模板），可以说非常方便了。</li>
 <li>新建一个模板文档，date栏填写<code>&#123;&#123;date&#125;&#125; &#123;&#123;time:HH:mm:ss&#125;&#125; +0800</code>，这是符合obsidian格式的写法。这个模板路径显然是填到上一步同页的“日记模板位置”里。</li>
 </ol>
+<p>模板：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">author: X</span><br><span class="line">date: &quot;&#123;&#123;date&#125;&#125; &#123;&#123;time:HH:mm:ss&#125;&#125; +0800&quot;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
 <p>有些需要注意的点是，在obsidian中，文件属性不是以前文所看到的形式显示的，而是：</p>
-<p><img src="/../../assets/img/Dingtalk_20240906103403.jpg"></p>
+<p><img src="https://cmgzn.github.io/image/20240906_1.jpg"></p>
 <p>在你填写完categories和tags之后呢，实际也并不是原先手写时的<code>[tag1, tag2]</code>形式，而是：</p>
-<p><img src="/../../assets/img/Dingtalk_20240906103705.jpg"><br>但并不影响部署发布，<code>Jekyll</code>还是可以完美识别的。</p>
+<p><img src="https://cmgzn.github.io/image/20240906_2.jpg"><br>但并不影响部署发布，<code>Jekyll</code>还是可以完美识别的。</p>
 <p>自此，你可以在obsidian中丝滑创作笔记，推送库可以利用第三方插件<code>Git</code>，实现笔记全流程都在同一平台管理。你也可以继续使用obsidian的内部链接功能，只不过发布后不再是链接，只会保留标题名称。</p>
 
         </div>
