@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23830157861aa32b",
+        "id": "0045316694d858a6",
         "type": "tabs",
         "children": [
           {
-            "id": "96a1ad63e9a5cf30",
+            "id": "570dec3d22561866",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/language/2025-01-17-是大臣精讲E1.md",
+                "file": "source/_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-17-是大臣精讲E1"
+              "title": "2024-09-06-github_page+obsidian实现个人笔记云管理"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/language/2025-01-17-是大臣精讲E1.md",
+                "file": "source/_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-01-17-是大臣精讲E1 的大纲"
+              "title": "2024-09-06-github_page+obsidian实现个人笔记云管理 的大纲"
             }
           },
           {
@@ -164,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,59 +176,57 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "96a1ad63e9a5cf30",
+  "active": "570dec3d22561866",
   "lastOpenFiles": [
+    "source/_posts/engineering/2024-11-05-git core.autocrlf配置说明.md",
+    "source/_posts/engineering/2024-09-11-git版本管理常见技巧.md",
+    "source/_posts/language/2025-01-17-是大臣精讲E1.md",
+    "source/_posts/language/2025-01-07-英语语法综述.md",
+    "source/_posts/language/2025-01-10-“时体气”洞察笔记.md",
     "source/_posts/language/2025-01-08-动词语气.md",
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.base",
+    "source/_posts/engineering/2024-08-13-两台Linux机器传文件.md",
+    "source/_posts/pool/2025-05-22-sphinx文档构建笔记.md",
+    "source/_posts/pool/2025-07-10-批量调整python脚本import顺序.md",
+    "source/_posts/pool/2025-04-30-论文单词表.md",
+    "source/_posts/engineering/2025-02-18-SQLite基础.md",
+    "source/_posts/engineering/2024-10-24-WSL启用参考与踩雷.md",
+    "source/_posts/engineering/2024-10-24-ssh-keygen自定义密钥名称.md",
+    "source/_posts/engineering/2024-10-16-Elasticsearch之一百种你不得不记的RESTful api.md",
+    "source/_posts/engineering/2024-10-16-as-rag模块拓展思考.md",
+    "source/_posts/engineering/2024-10-15-Elasticsearch远程docker部署 1.md",
+    "source/_posts/pool/2024-10-18-Pinokio_AI浏览器调研.md",
+    "source/_posts/pool/2024-10-18-日记.md",
+    "source/_posts/pool/2024-09-05-日记.md",
+    "source/_posts/brain/2025-03-20-数据库系统.md",
+    "source/_posts/brain/2025-03-11-软件工程.md",
+    "source/_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "source/_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+    "source/_posts/pool/2025-09-23-Homebrew BOOK.md",
+    "themes/Chic/source/fonts/iconfont/iconfont.svg",
+    "source/image/20240906_3.jpg",
+    "_template/tech_note.md",
+    "source/image/20240906_2.jpg",
+    "source/image/20240906_1.jpg",
+    "source/_posts/engineering/未命名.md",
+    "_template",
     "themes/Chic/source/image/avatar.jpeg",
     "source/image/20250108动词语气p1.png",
     "source/image/20250117是大臣E1p1.png",
     "source/image/20250108动词语气p5.png",
     "source/image/20250108动词语气p4.png",
     "source/image/20250108动词语气p3.png",
-    "source/image/20250108动词语气p2.png",
     "source/image",
-    "source/_posts/language/2025-01-07-动词分类与时态.md",
-    "themes/Chic/LICENSE.md",
-    "themes/Chic/README.md",
-    "themes/Chic/README-CN.md",
-    "themes/Chic/ChangeLogs.md",
-    "_posts/pool/2025-07-10-批量调整python脚本import顺序.md",
-    "_posts/pool/2025-05-22-sphinx文档构建笔记.md",
-    "_posts/pool/2025-05-23.md",
-    "_posts/pool/2025-05-08-.md",
-    "_posts/pool/2025-05-06.md",
-    "_posts/pool/2025-05-06-AIR A Systematic Analysis of Annotations, Instructions, and Response Pairs in Preference Dataset.md",
-    "_posts/pool/2025-04-30-论文单词表.md",
-    "_posts/pool/2025-03-26-人设.md",
-    "_posts/pool/2024-11-05-git core.autocrlf配置说明.md",
-    "_posts/engineering/2025-04-24-linux绘图中文字体乱码心得.md",
-    "_posts/pool/2025-04-08.md",
-    "_posts/pool/2025-04-11.md",
-    "_posts/brain/2025-03-20-数据库系统.md",
-    "Pasted image 20250410175629.png",
-    "Pasted image 20250410165046.png",
-    "Pasted image 20250410164612.png",
-    "_posts/pool/2025-04-10.md",
-    "_posts/pool/2025-03-28.md",
-    "_posts/brain/2025-03-11-软件工程.md",
-    "_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
-    "_posts/pool/2024-09-05-日记.md",
-    "_posts/pool/2024-10-16-as-rag模块拓展思考.md",
-    "_posts/pool/2024-10-18-日记.md",
     "pool",
     "未命名.canvas",
     "Clippings",
     "_posts/language",
     "_posts/brain",
-    "assets/draft",
-    "Excalidraw",
-    "assets/Excalidraw",
-    "_posts/debug",
-    "assets/img"
+    "assets/draft"
   ]
 }

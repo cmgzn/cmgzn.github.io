@@ -102,3 +102,7 @@ theme: Chic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+asset:
+  enable: true
+  fingerprint: true
