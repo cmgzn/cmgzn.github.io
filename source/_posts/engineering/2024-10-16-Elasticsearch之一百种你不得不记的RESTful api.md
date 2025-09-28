@@ -3,7 +3,6 @@ title: Elasticsearch之一百种你不得不记的RESTful api
 author: X
 date: 2024-10-16 14:41:44 +0800
 categories:
-  - engineering
   - 数据库
 tags:
   - Elasticsearch

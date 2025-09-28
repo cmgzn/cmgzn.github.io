@@ -3,7 +3,6 @@ title: Elasticsearch远程docker部署
 author: X
 date: 2024-10-15 14:27:40 +0800
 categories:
-  - engineering
   - 数据库
 tags:
   - Elasticsearch

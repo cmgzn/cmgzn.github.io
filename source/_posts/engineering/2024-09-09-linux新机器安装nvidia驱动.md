@@ -3,7 +3,6 @@ title: linux新机器安装nvidia驱动
 author: X
 date: 2024-09-09 09:45:21 +0800
 categories:
-  - engineering
   - environment
 tags:
   - linux

@@ -3,10 +3,10 @@ title: docker-ubuntu安装教程
 author: X
 date: 2024-10-15 14:27:40 +0800
 categories:
-  - engineering
+  - linux
 tags:
   - docker
-  - linux
+  - ubuntu
 ---
 # 安装docker
 没什么好说的，国内参考这个：

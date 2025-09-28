@@ -3,8 +3,7 @@ title: windows无cpu启动stable-diffusion-webui
 author: X
 date: 2024-09-06 10:27:50 +0800
 categories:
-  - engineering
-  - 模型工程
+  - multimodal
 tags:
   - SD
   - 模型部署

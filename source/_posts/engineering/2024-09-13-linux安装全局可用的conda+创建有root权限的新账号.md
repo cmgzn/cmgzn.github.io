@@ -3,7 +3,6 @@ title: linux安装全局可用的conda
 author: X
 date: 2024-09-13 14:12:06 +0800
 categories:
-  - engineering
   - environment
 tags:
   - linux

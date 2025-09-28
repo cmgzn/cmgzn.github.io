@@ -3,10 +3,11 @@ title: obsidian ios多平台同步超完美方案
 author: X
 date: 2024-09-20 15:37:38 +0800
 categories:
-  - 磨刀
-  - obsidian
+  - Note Management
 tags:
-  - 笔记管理
+  - obsidian
+  - ios
+  - git
 ---
 最近高强度使用obsidian，有时候一些备忘的check box也想在obsidian写，于是就捣鼓着想把仓库同步到移动端（ios）。
 

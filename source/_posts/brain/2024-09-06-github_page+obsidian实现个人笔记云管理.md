@@ -3,10 +3,10 @@ title: github_page+obsidian实现个人笔记云管理
 author: X
 date: 2024-09-06 09:30:30 +0800
 categories:
-  - 磨刀
-  - obsidian
+  - Note Management
 tags:
-  - 笔记管理
+  - obsidian
+  - github
 ---
 # 背景
 如题所示。

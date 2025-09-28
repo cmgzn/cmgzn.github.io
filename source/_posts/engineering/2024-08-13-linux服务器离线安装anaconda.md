@@ -3,7 +3,6 @@ title: linux服务器离线安装anaconda
 author: X
 date: 2024-08-13 15:06:31 +0800
 categories:
-  - engineering
   - linux
 tags:
   - environment

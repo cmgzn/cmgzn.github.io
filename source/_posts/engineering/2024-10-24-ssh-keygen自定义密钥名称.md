@@ -3,11 +3,11 @@ title: ssh-keygen自定义密钥名称
 author: X
 date: 2024-10-24 10:50:11 +0800
 categories:
-  - engineering
+  - linux
 tags:
   - ssh
 ---
-是的，使用 `ssh-keygen` 生成 SSH 密钥时，你可以自定义生成的私钥和公钥的名称。
+使用 `ssh-keygen` 生成 SSH 密钥时，你可以自定义生成的私钥和公钥的名称。
 
 ### 自定义密钥名称的步骤
 

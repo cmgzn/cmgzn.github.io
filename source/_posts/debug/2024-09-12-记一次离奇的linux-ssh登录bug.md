@@ -4,7 +4,6 @@ author: X
 date: 2024-09-12 17:16:10 +0800
 categories:
   - debug
-  - linux
 tags:
   - linux
   - ssh
