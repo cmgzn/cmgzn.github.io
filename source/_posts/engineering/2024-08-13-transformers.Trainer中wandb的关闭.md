@@ -5,7 +5,6 @@ date: 2024-08-13 09:06:31 +0800
 categories:
   - LLM
 tags:
-  - 黑科技
   - 模型训练
   - transformers
 ---

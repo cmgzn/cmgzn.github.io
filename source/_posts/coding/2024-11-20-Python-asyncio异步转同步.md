@@ -3,11 +3,13 @@ title: Python-asyncio异步转同步
 author: X
 date: 2024-11-20 13:04:32 +0800
 categories:
-  - debug
   - coding
 tags:
-  - 异步/协程
   - 线程
+  - 异步
+  - 协程
+  - python
+  - debug
 ---
 在Python编程中，异步编程（Asynchronous Programming）和同步编程（Synchronous Programming）是两种常见的编程范式。理解如何在这两者之间转换，对于在实际项目中有效利用异步特性以及与现有同步代码集成至关重要。本文将详细介绍如何将Python中的异步代码转换为同步代码，涵盖`run_coroutine_threadsafe`等方法，以及异步生成器（`async_gen`）的转换。
 

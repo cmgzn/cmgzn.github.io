@@ -4,9 +4,8 @@ author: X
 date: 2024-10-24 13:59:44 +0800
 categories:
   - language
-  - english
 tags:
-  - A2E4D
+  - english
 ---
 # dialogue text
 M:

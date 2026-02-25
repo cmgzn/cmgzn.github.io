@@ -3,9 +3,9 @@ title: linux新机器安装nvidia驱动
 author: X
 date: 2024-09-09 09:45:21 +0800
 categories:
-  - environment
-tags:
   - linux
+tags:
+  - environment
 ---
 昨天搞的，有点记不清具体细节了。
 首先查看显卡型号：

@@ -3,10 +3,9 @@ title: 免费且私密的联网搜索组件duckduckgo
 author: X
 date: 2024-09-05 15:51:05 +0800
 categories:
-  - engineering
-  - pool
+  - brain
 tags:
-  - 黑科技
+  - free
 ---
 # 背景
 玩agentscope（开源）的react_agent，试用其service板块的toolkit功能，在其中add一个联网搜索的插件，但其提供的联网插件都需要api-key，就想着用一个免费的。我记得是有一些，但忘了叫什么，一番搜索后最后引入了这个（不是我一开始记忆里的某个s开头的免费api），这准确来说是一个逆向封装后的包（信源：[用duckduckgo的搜索API免费给大模型接入联网功能，让普通模型也能实现类似new bing的效果](https://linux.do/t/topic/122537)），确实比较方便好用，看论坛说对网络有要求（可能是不能没有梯子，这方面没有测试），但个人使用感受是非常舒服快捷的。

@@ -5,8 +5,8 @@ date: 2024-09-10 14:16:41 +0800
 categories:
   - engineering
 tags:
-  - shell脚本
-  - 下载
+  - download
+  - shell
 ---
 # 更新
 

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "570dec3d22561866",
+            "id": "c29b0f9aff078017",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/pool/2025-09-26-Ubuntu24.04安装yum最佳实践.md",
+                "file": "source/_posts/pool/2026-02-06-利用notebook特性实现user可介入的交互式AI-coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-26-Ubuntu24.04安装yum最佳实践"
+              "title": "2026-02-06-利用notebook特性实现user可介入的交互式AI-coding"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:黑科技",
+                "query": "tag:#jsdom  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,34 +179,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "570dec3d22561866",
+  "active": "c29b0f9aff078017",
   "lastOpenFiles": [
+    "source/_posts/pool/2025-11-19-vscode神秘消失事件.md",
+    "source/_posts/pool/2026-02-06-利用notebook特性实现user可介入的交互式AI-coding.md",
+    "source/_posts/pool/2025-10-13-reddit官方一键全帖转中文.md",
+    "source/_posts/pool/2025-12-26.md",
     "source/_posts/pool/2025-09-26-Ubuntu切换语言为中文.md",
     "source/_posts/pool/2025-09-26-Ubuntu24.04安装yum最佳实践.md",
-    "source/_posts/math/2024-08-13-泰勒公式.md",
-    "themes/Chic/README-CN.md",
-    "source/_posts/math/2024-12-26-微积分.md",
-    "source/_posts/math/2024-12-27-极限.md",
-    "source/_posts/debug/2024-10-18-不太安全但管用的docker非root用户权限问题.md",
-    "source/_posts/debug/2024-09-12-记一次离奇的linux-ssh登录bug.md",
-    "source/_posts/coding/2024-08-13-数据结构知识池.md",
-    "source/_posts/brain/2025-03-20-数据库系统.md",
-    "source/_posts/brain/2025-03-11-软件工程.md",
-    "source/_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "source/_posts/pool/2025-07-10-批量调整python脚本import顺序.md",
+    "source/_posts/pool/2025-05-22-sphinx文档构建笔记.md",
     "source/_posts/brain/2024-09-06-github_page+obsidian实现个人笔记云管理.md",
+    "source/_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
+    "source/_posts/brain/2025-03-11-软件工程.md",
+    "source/_posts/brain/2025-03-20-数据库系统.md",
+    "source/_posts/coding/2024-08-13-数据结构知识池.md",
+    "source/_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
+    "source/_posts/coding/2024-08-13-generator.md",
+    "source/_posts/coding/2024-08-13-json.dumps输出美化版json.md",
+    "source/_posts/coding/2024-08-13-Python获取类的属性.md",
+    "source/_posts/coding/2024-08-13-python爬虫图解.md",
+    "source/_posts/coding/2024-08-13-python开多进程.md",
+    "source/_posts/coding/2024-11-27-多线程信号量.md",
+    "source/_posts/coding/2024-11-20-Python-asyncio异步转同步.md",
     "source/_posts/coding/2024-12-18-github_api爬虫.md",
     "source/_posts/coding/2024-12-26-小case.md",
-    "source/_posts/coding/2024-11-27-多线程信号量.md",
-    "source/_posts/coding/2024-08-13-python开多进程.md",
-    "source/_posts/engineering/2024-10-18-npm_Node.js探秘.md",
-    "source/_posts/coding/2024-08-13-Python获取类的属性.md",
-    "source/_posts/coding/2024-08-13-json.dumps输出美化版json.md",
-    "source/_posts/coding/2024-08-13-generator.md",
-    "source/_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
-    "source/_posts/engineering/2025-04-24-linux绘图中文字体乱码心得.md",
-    "source/_posts/engineering/2025-02-18-SQLite基础.md",
-    "source/_posts/engineering/2024-11-05-git core.autocrlf配置说明.md",
-    "source/_posts/engineering/2024-10-24-WSL启用参考与踩雷.md",
+    "source/_posts/pool/2025-10-23.md",
+    "source/_posts/pool/2025-09-23-Homebrew BOOK.md",
+    "source/_posts/pool/2025-05-06-AIR A Systematic Analysis of Annotations, Instructions, and Response Pairs in Preference Dataset.md",
     "未命名 2.base",
     "未命名 1.base",
     "未命名.base",
