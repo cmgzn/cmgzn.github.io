@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Lil b">
+
+
+
+
+
+<title>npm_Node.js探秘 | Lil b</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const pagebody = document.getElementsByTagName('body')[0]
+
+            function setTheme(status) {
+
+                if (status === 'dark') {
+                    window.sessionStorage.theme = 'dark'
+                    pagebody.classList.add('dark-theme');
+
+                } else if (status === 'light') {
+                    window.sessionStorage.theme = 'light'
+                    pagebody.classList.remove('dark-theme');
+                }
+            };
+
+            setTheme(window.sessionStorage.theme)
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Lil B&#39;s apartment</a></div>
+            <div class="menu navbar-right">
+                
+                <a class="menu-item" href="/archives">Posts</a>
+                
+                <a class="menu-item" href="/category">Categories</a>
+                
+                <a class="menu-item" href="/tag">Tags</a>
+                
+                <a class="menu-item" href="/about">About</a>
+                
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Lil B&#39;s apartment</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 17.27q-.213 0-.356-.145T4 16.768t.144-.356t.356-.143h15q.213 0 .356.144q.144.144.144.357t-.144.356t-.356.143zm0-4.77q-.213 0-.356-.144T4 11.999t.144-.356t.356-.143h15q.213 0 .356.144t.144.357t-.144.356t-.356.143zm0-4.77q-.213 0-.356-.143Q4 7.443 4 7.23t.144-.356t.356-.143h15q.213 0 .356.144T20 7.23t-.144.356t-.356.144z"/></svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols Light by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="m12 12.708l-5.246 5.246q-.14.14-.344.15t-.364-.15t-.16-.354t.16-.354L11.292 12L6.046 6.754q-.14-.14-.15-.344t.15-.364t.354-.16t.354.16L12 11.292l5.246-5.246q.14-.14.345-.15q.203-.01.363.15t.16.354t-.16.354L12.708 12l5.246 5.246q.14.14.15.345q.01.203-.15.363t-.354.16t-.354-.16z"/></svg>
+                </div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                <a class="menu-item" href="/archives">Posts</a>
+                
+                <a class="menu-item" href="/category">Categories</a>
+                
+                <a class="menu-item" href="/tag">Tags</a>
+                
+                <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.classList.contains("active")) {
+            toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        } else {
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">npm_Node.js探秘</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Lil b</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">October 18, 2024&nbsp;&nbsp;5:56:00</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/environment/">environment</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p><code>npm</code> 是 Node.js 的包管理器，全称为 “Node Package Manager”。它是一个命令行工具，用于安装、管理和更新 Node.js 应用程序中的第三方库和依赖项。<code>npm</code> 也是世界上最大的软件注册表之一，包含了数以百万计的开源包。</p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h3 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h3><ol>
+<li><p><strong>安装包</strong>：</p>
+<ul>
+<li>使用 <code>npm install &lt;package-name&gt;</code> 命令可以安装指定的包及其依赖项。</li>
+<li>例如：<code>npm install lodash</code> 会安装 <code>lodash</code> 包。</li>
+</ul>
+</li>
+<li><p><strong>全局安装包</strong>：</p>
+<ul>
+<li>使用 <code>npm install -g &lt;package-name&gt;</code> 命令可以全局安装包，使其在系统任何地方都可用。</li>
+<li>例如：<code>npm install -g typescript</code> 会全局安装 TypeScript 编译器。</li>
+</ul>
+</li>
+<li><p><strong>卸载包</strong>：</p>
+<ul>
+<li>使用 <code>npm uninstall &lt;package-name&gt;</code> 命令可以卸载指定的包。</li>
+<li>例如：<code>npm uninstall lodash</code> 会卸载 <code>lodash</code> 包。</li>
+</ul>
+</li>
+<li><p><strong>更新包</strong>：</p>
+<ul>
+<li>使用 <code>npm update &lt;package-name&gt;</code> 命令可以更新指定的包到最新版本。</li>
+<li>例如：<code>npm update lodash</code> 会将 <code>lodash</code> 更新到最新版本。</li>
+</ul>
+</li>
+<li><p><strong>查看已安装的包</strong>：</p>
+<ul>
+<li>使用 <code>npm list</code> 命令可以查看当前项目中已安装的包及其依赖关系。</li>
+<li>使用 <code>npm list -g</code> 命令可以查看全局安装的包。</li>
+</ul>
+</li>
+<li><p><strong>初始化项目</strong>：</p>
+<ul>
+<li>使用 <code>npm init</code> 命令可以创建一个新的 <code>package.json</code> 文件，该文件用于管理项目的元数据和依赖项。</li>
+<li>运行 <code>npm init</code> 会引导你完成一系列问题，生成 <code>package.json</code> 文件。</li>
+</ul>
+</li>
+<li><p><strong>运行脚本</strong>：</p>
+<ul>
+<li>在 <code>package.json</code> 文件中定义的脚本可以通过 <code>npm run &lt;script-name&gt;</code> 命令运行。</li>
+<li>例如，如果 <code>package.json</code> 中有一个名为 <code>start</code> 的脚本，可以使用 <code>npm run start</code> 来运行它。</li>
+</ul>
+</li>
+</ol>
+<h3 id="package-json-文件"><a href="#package-json-文件" class="headerlink" title="package.json 文件"></a><code>package.json</code> 文件</h3><p><code>package.json</code> 是一个 JSON 文件，位于项目的根目录下，用于存储项目的元数据和依赖信息。以下是 <code>package.json</code> 文件的基本结构：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;my-project&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;A sample Node.js project&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="string">&quot;index.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;start&quot;</span><span class="punctuation">:</span> <span class="string">&quot;node index.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;mocha test/**/*.js&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;express&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^4.17.1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;lodash&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^4.17.21&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;devDependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;mocha&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^8.2.1&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Your Name&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;license&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ISC&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ul>
+<li><p><strong>安装所有依赖</strong>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>安装特定版本的包</strong>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install &lt;package-name&gt;@&lt;version&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>安装开发依赖</strong>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev &lt;package-name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>查看包的信息</strong>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm info &lt;package-name&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>搜索包</strong>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm search &lt;query&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p><code>npm</code> 是 Node.js 生态系统中不可或缺的一部分，它简化了包的管理和依赖项的处理，使得开发者可以更高效地构建和维护项目。希望这些信息对你理解 <code>npm</code> 有所帮助！如果你有任何具体的问题或需要进一步的指导，请告诉我。</p>
+<h2 id="修改国内镜像源"><a href="#修改国内镜像源" class="headerlink" title="修改国内镜像源"></a>修改国内镜像源</h2><h3 id="一、修改成腾讯云镜像源"><a href="#一、修改成腾讯云镜像源" class="headerlink" title="一、修改成腾讯云镜像源"></a>一、修改成腾讯云镜像源</h3><p>1、命令</p>
+<p>npm config set registry <a target="_blank" rel="noopener" href="http://mirrors.cloud.tencent.com/npm/">http://mirrors.cloud.tencent.com/npm/</a></p>
+<ol start="2">
+<li>验证命令</li>
+</ol>
+<p>npm config get registry</p>
+<p>如果返回<a target="_blank" rel="noopener" href="http://mirrors.cloud.tencent.com/npm/%EF%BC%8C%E8%AF%B4%E6%98%8E%E9%95%9C%E5%83%8F%E9%85%8D%E7%BD%AE%E6%88%90%E5%8A%9F%E3%80%82">http://mirrors.cloud.tencent.com/npm/，说明镜像配置成功。</a></p>
+<h3 id="二、修改成淘宝镜像源"><a href="#二、修改成淘宝镜像源" class="headerlink" title="二、修改成淘宝镜像源"></a>二、修改成淘宝镜像源</h3><ol>
+<li>命令</li>
+</ol>
+<p>npm config set registry <a target="_blank" rel="noopener" href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
+<ol start="2">
+<li>验证命令</li>
+</ol>
+<p>npm config get registry</p>
+<p>如果返回<a target="_blank" rel="noopener" href="https://registry.npmmirror.com,说明镜像配置成功./">https://registry.npmmirror.com，说明镜像配置成功。</a></p>
+<h3 id="三、修改成华为云镜像源"><a href="#三、修改成华为云镜像源" class="headerlink" title="三、修改成华为云镜像源"></a>三、修改成华为云镜像源</h3><ol>
+<li>命令</li>
+</ol>
+<p>npm config set registry <a target="_blank" rel="noopener" href="https://mirrors.huaweicloud.com/repository/npm/">https://mirrors.huaweicloud.com/repository/npm/</a></p>
+<ol start="2">
+<li>验证命令</li>
+</ol>
+<p>npm config get registry</p>
+<p>如果返回<a target="_blank" rel="noopener" href="https://mirrors.huaweicloud.com/repository/npm/%EF%BC%8C%E8%AF%B4%E6%98%8E%E9%95%9C%E5%83%8F%E9%85%8D%E7%BD%AE%E6%88%90%E5%8A%9F%E3%80%82">https://mirrors.huaweicloud.com/repository/npm/，说明镜像配置成功。</a></p>
+<h3 id="四、通过使用淘宝定制的cnpm安装"><a href="#四、通过使用淘宝定制的cnpm安装" class="headerlink" title="四、通过使用淘宝定制的cnpm安装"></a>四、通过使用淘宝定制的cnpm安装</h3><ol>
+<li>安装cnpm</li>
+</ol>
+<p>npm install -g cnpm –registry&#x3D;<a target="_blank" rel="noopener" href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
+<ol start="2">
+<li>使用cnpm</li>
+</ol>
+<p>cnpm install xxx</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Lil b</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://cmgzn.github.io/2024/10/18/engineering/2024-10-18-npm_Node.js%E6%8E%A2%E7%A7%98/">https://cmgzn.github.io/2024/10/18/engineering/2024-10-18-npm_Node.js%E6%8E%A2%E7%A7%98/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>STEAK</strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/npm/"># npm</a>
+                    
+                        <a href="/tags/Nodejs/"># Nodejs</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2024/10/18/debug/2024-10-18-%E4%B8%8D%E5%A4%AA%E5%AE%89%E5%85%A8%E4%BD%86%E7%AE%A1%E7%94%A8%E7%9A%84docker%E9%9D%9Eroot%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/">不太安全但管用的docker非root用户权限问题</a>
+            
+            
+            <a class="next" rel="next" href="/2024/10/16/engineering/2024-10-16-as-rag%E6%A8%A1%E5%9D%97%E6%8B%93%E5%B1%95%E6%80%9D%E8%80%83/">as-rag模块拓展思考</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Lil b | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
