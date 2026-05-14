@@ -131,8 +131,7 @@ input,
     filter: blur(0.35px);
     transition:
       opacity 260ms ease,
-      filter 260ms ease,
-      transform 260ms ease;
+      filter 260ms ease;
   }
 
   body:not([data-slug="index"]) .sidebar.left {
@@ -208,13 +207,11 @@ body[data-slug="index"] .center {
   grid-area: grid-center;
   min-width: 100%;
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+  display: block;
 }
 
 body[data-slug="index"] article {
-  display: grid;
-  place-items: center;
+  display: block;
   min-height: 100vh;
 }
 
@@ -227,13 +224,17 @@ body[data-slug="index"] .popover-hint {
 }
 
 .home-stage {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  min-height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  pointer-events: none;
 }
 
 .fly-entry {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   color: var(--secondary);
   font-size: clamp(2.2rem, 6vw, 4.4rem);
   font-family: var(--bodyFont);
@@ -252,6 +253,8 @@ body[data-slug="index"] .popover-hint {
     opacity 260ms ease,
     text-shadow 420ms ease,
     transform 420ms ease;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
 }
 
 .fly-entry:hover {
@@ -259,7 +262,7 @@ body[data-slug="index"] .popover-hint {
   letter-spacing: 0.075em;
   opacity: 0.92;
   text-shadow: 0 1.2rem 3rem color-mix(in srgb, var(--secondary) 24%, transparent);
-  transform: translateY(-0.12rem);
+  transform: translate(-50%, calc(-50% - 0.12rem));
 }
 
 [saved-theme="dark"] .fly-entry:hover {
