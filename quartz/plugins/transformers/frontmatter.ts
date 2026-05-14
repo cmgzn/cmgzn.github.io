@@ -52,6 +52,10 @@ function getAliasSlugs(aliases: string[]): FullSlug[] {
   return res
 }
 
+function inferTitleFromStem(stem: string) {
+  return stem.replace(/^\d{4}-\d{2}-\d{2}[-\s_]+/, "")
+}
+
 export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
@@ -74,7 +78,9 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             if (data.title != null && data.title.toString() !== "") {
               data.title = data.title.toString()
             } else {
-              data.title = file.stem ?? i18n(cfg.configuration.locale).propertyDefaults.title
+              data.title = file.stem
+                ? inferTitleFromStem(file.stem)
+                : i18n(cfg.configuration.locale).propertyDefaults.title
             }
 
             const tags = coerceToArray(coalesceAliases(data, ["tags", "tag"]))

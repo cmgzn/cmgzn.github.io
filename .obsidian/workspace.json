@@ -11,14 +11,14 @@
             "id": "7859d03f3c517ce5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "content/pool/2026-05-14-好像很久没有写笔记了.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "2026-05-14-好像很久没有写笔记了"
             }
           }
         ]
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/pool/2026-05-14-好像很久没有写笔记了.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "2026-05-14-好像很久没有写笔记了 的出链列表"
             }
           },
           {
@@ -141,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/pool/2026-05-14-好像很久没有写笔记了.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2026-05-14-好像很久没有写笔记了 的大纲"
             }
           },
           {
@@ -189,29 +191,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b07897dad62203b8",
+  "active": "7859d03f3c517ce5",
   "lastOpenFiles": [
-    "public/tags/笔记管理.html",
-    "public/tags/yum.html",
-    "public/tags/vscode.html",
-    "public/tags/reddit.html",
-    "public/tags/latex.html",
+    "public/pool/2026-05-14-好像很久没有写笔记了.html",
+    "public/pool/2026-05-14.html",
+    "_template/tech_note.md",
+    "content/pool/2026-05-14-好像很久没有写笔记了.md",
+    "content/engineering/2024-08-13-两台Linux机器传文件.md",
+    "public/pool/2025-11-19-vscode神秘消失事件.html",
+    "public/pool/2025-10-13-reddit官方一键全帖转中文.html",
+    "public/pool/2025-09-26-Ubuntu切换语言为中文.html",
+    "public/pool/2025-09-26-Ubuntu24.04安装yum最佳实践.html",
+    "public/pool/2025-07-10-批量调整python脚本import顺序.html",
+    "public/pool/2025-05-22-sphinx文档构建笔记.html",
+    "public/pool/2025-05-06-AIR-A-Systematic-Analysis-of-Annotations,-Instructions,-and-Response-Pairs-in-Preference-Dataset.html",
+    "public/pool/2025-04-30-论文单词表.html",
     "public/tags/index.html",
-    "public/tags/i18n.html",
-    "public/tags/fonts.html",
-    "public/tags/english.html",
-    "public/tags/Nodejs.html",
-    "public/tags/curl.html",
-    "public/static/og-image.png",
-    "public/static/icon.png",
     "public/image/20250117是大臣E1p1.png",
     "public/image/20250108动词语气p5.png",
     "public/image/20250108动词语气p4.png",
-    "public/image/20250108动词语气p3.png",
     "public/image/20250108动词语气p2.png",
+    "public/image/20250108动词语气p3.png",
     "public/image/20250108动词语气p1.png",
     "public/image/20240906_3.jpg",
     "public/image/20240906_2.jpg",
+    "public/image/20240906_1.jpg",
+    "public/static/og-image.png",
+    "content/pool/2025-11-19-vscode神秘消失事件.md",
+    "content/pool/2025-10-13-reddit官方一键全帖转中文.md",
+    "content/pool/2026-02-06-利用notebook特性实现user可介入的交互式AI-coding.md",
+    "content/pool/2025-10-23.md",
+    "content/pool/2025-12-26.md",
     "content/archive.md",
     "content/index.md",
     "content/hello-world.md",
@@ -229,14 +239,6 @@
     "source/_posts/brain/2024-09-20-obsidian ios多平台同步超完美方案.md",
     "source/_posts/brain/2025-03-11-软件工程.md",
     "source/_posts/brain/2025-03-20-数据库系统.md",
-    "source/_posts/coding/2024-08-13-数据结构知识池.md",
-    "source/_posts/coding/2024-08-13-chatglm-PPO训练路径探索.md",
-    "source/_posts/coding/2024-08-13-generator.md",
-    "source/_posts/coding/2024-08-13-json.dumps输出美化版json.md",
-    "source/_posts/coding/2024-08-13-Python获取类的属性.md",
-    "source/_posts/coding/2024-08-13-python爬虫图解.md",
-    "source/_posts/coding/2024-08-13-python开多进程.md",
-    "source/_posts/coding/2024-11-27-多线程信号量.md",
     "未命名.canvas"
   ]
 }
