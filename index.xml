@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on Lil b</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>好像很久没有写笔记了</title>
+    <link>https://cmgzn.github.io/pool/2026-05-14-%E5%A5%BD%E5%83%8F%E5%BE%88%E4%B9%85%E6%B2%A1%E6%9C%89%E5%86%99%E7%AC%94%E8%AE%B0%E4%BA%86</link>
+    <guid>https://cmgzn.github.io/pool/2026-05-14-%E5%A5%BD%E5%83%8F%E5%BE%88%E4%B9%85%E6%B2%A1%E6%9C%89%E5%86%99%E7%AC%94%E8%AE%B0%E4%BA%86</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 May 2026 07:04:18 GMT</pubDate>
+  </item><item>
     <title>Lil b</title>
     <link>https://cmgzn.github.io/</link>
     <guid>https://cmgzn.github.io/</guid>
@@ -24,31 +30,13 @@
     <description><![CDATA[ Welcome to Hexo! This is your very first post. Check documentation for more info. ]]></description>
     <pubDate>Thu, 14 May 2026 05:37:43 GMT</pubDate>
   </item><item>
-    <title>2026-02-06-利用notebook特性实现user可介入的交互式AI-coding</title>
-    <link>https://cmgzn.github.io/pool/2026-02-06-%E5%88%A9%E7%94%A8notebook%E7%89%B9%E6%80%A7%E5%AE%9E%E7%8E%B0user%E5%8F%AF%E4%BB%8B%E5%85%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E5%BC%8FAI-coding</link>
-    <guid>https://cmgzn.github.io/pool/2026-02-06-%E5%88%A9%E7%94%A8notebook%E7%89%B9%E6%80%A7%E5%AE%9E%E7%8E%B0user%E5%8F%AF%E4%BB%8B%E5%85%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E5%BC%8FAI-coding</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 06 Feb 2026 05:51:04 GMT</pubDate>
-  </item><item>
-    <title>2025-12-26</title>
-    <link>https://cmgzn.github.io/pool/2025-12-26</link>
-    <guid>https://cmgzn.github.io/pool/2025-12-26</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 26 Dec 2025 03:14:17 GMT</pubDate>
-  </item><item>
     <title>vscode神秘消失事件</title>
     <link>https://cmgzn.github.io/pool/2025-11-19-vscode%E7%A5%9E%E7%A7%98%E6%B6%88%E5%A4%B1%E4%BA%8B%E4%BB%B6</link>
     <guid>https://cmgzn.github.io/pool/2025-11-19-vscode%E7%A5%9E%E7%A7%98%E6%B6%88%E5%A4%B1%E4%BA%8B%E4%BB%B6</guid>
     <description><![CDATA[ （推了推鼻梁上的眼镜，翻开皮质笔记本） 案件编号：VSCOD-2023-关机异常事件 【现场勘查记录】 受害者：Visual Studio Code 1.80.1 最后活动时间：强制关机前约3分钟 异常症状： 快捷方式失效（错误提示：Code.exe已被移动或删除） 程序目录出现可疑的”_“文件夹（经核实为更新缓存区） 【证据链分析】 ▶ 关键物证位置： 主现场：D:\Users{user_name}\AppData\Local\Programs\Microsoft VS Code 异常点：存在未正常清理的”_“文件夹（大小约300MB） 凶器：非正常关机操作（更新进程被强制终止） 【技术解剖... ]]></description>
     <pubDate>Wed, 19 Nov 2025 02:36:09 GMT</pubDate>
   </item><item>
-    <title>2025-10-23</title>
-    <link>https://cmgzn.github.io/pool/2025-10-23</link>
-    <guid>https://cmgzn.github.io/pool/2025-10-23</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 23 Oct 2025 08:20:05 GMT</pubDate>
-  </item><item>
-    <title>2025-10-13-reddit官方一键全帖转中文</title>
+    <title>reddit官方一键全帖转中文</title>
     <link>https://cmgzn.github.io/pool/2025-10-13-reddit%E5%AE%98%E6%96%B9%E4%B8%80%E9%94%AE%E5%85%A8%E5%B8%96%E8%BD%AC%E4%B8%AD%E6%96%87</link>
     <guid>https://cmgzn.github.io/pool/2025-10-13-reddit%E5%AE%98%E6%96%B9%E4%B8%80%E9%94%AE%E5%85%A8%E5%B8%96%E8%BD%AC%E4%B8%AD%E6%96%87</guid>
     <description><![CDATA[ 无意间发现reddit有很多帖子是全中文，一开始以为是其中的华人社区（因为有些讨论的完全是海外内容），仔细一看感觉和小红书llm翻译一样，并且找到了对应的英文原帖之后，意识到应该是reddit自己搞的？具体是在帖子后加?tl=zh-hans标识。 例子： 原帖：# Why Piastri fans are rightfully upset 添加标识后：# 为什么皮亚斯特里的粉丝们理所当然地感到不安 很好奇想搞明白是什么情况，检索发现一些端倪： from v2ex 评论提到的24Q3 Letter to Shareholders. ]]></description>
@@ -65,6 +53,18 @@
     <guid>https://cmgzn.github.io/pool/2025-09-26-Ubuntu%E5%88%87%E6%8D%A2%E8%AF%AD%E8%A8%80%E4%B8%BA%E4%B8%AD%E6%96%87</guid>
     <description><![CDATA[ 可怜的孩纸一直在用英文系统，偶然才发现别人的怎么是中文，我也想要！ （其实用英文也非常不错，可以创造英文环境学习英语，换完有点后悔了，但换了再说） # 1. 安装中文语言包 sudo apt update sudo apt install language-pack-zh-hans # 2. ]]></description>
     <pubDate>Fri, 26 Sep 2025 03:00:17 GMT</pubDate>
+  </item><item>
+    <title>批量调整python脚本import顺序</title>
+    <link>https://cmgzn.github.io/pool/2025-07-10-%E6%89%B9%E9%87%8F%E8%B0%83%E6%95%B4python%E8%84%9A%E6%9C%ACimport%E9%A1%BA%E5%BA%8F</link>
+    <guid>https://cmgzn.github.io/pool/2025-07-10-%E6%89%B9%E9%87%8F%E8%B0%83%E6%95%B4python%E8%84%9A%E6%9C%ACimport%E9%A1%BA%E5%BA%8F</guid>
+    <description><![CDATA[ import subprocess import sys import re def get_staged_py_files(): &quot;&quot;&quot;获取暂存区已修改的 .py 文件名列表&quot;&quot;&quot; res = subprocess.run( [&quot;git&quot;, &quot;diff&quot;, &quot;--cached&quot;, &quot;--name-only&quot;, &quot;--diff-filter=ACM&quot;], capture_output=True, text=True ) return [... ]]></description>
+    <pubDate>Thu, 10 Jul 2025 09:29:59 GMT</pubDate>
+  </item><item>
+    <title>sphinx文档构建笔记</title>
+    <link>https://cmgzn.github.io/pool/2025-05-22-sphinx%E6%96%87%E6%A1%A3%E6%9E%84%E5%BB%BA%E7%AC%94%E8%AE%B0</link>
+    <guid>https://cmgzn.github.io/pool/2025-05-22-sphinx%E6%96%87%E6%A1%A3%E6%9E%84%E5%BB%BA%E7%AC%94%E8%AE%B0</guid>
+    <description><![CDATA[ 特色：文档非集中式管理 多版本管理：使用拓展sphinx_multiversion。此拓展原理是搜索ref并为每个ref创建一个临时目录，使用当前conf.py运行该临时目录，因此可以起到统一格式的效果。 问题：无法变更ref.name，例如希望将main分支指定为latest，则无法达到这种效果（因为sphinx_multiversion的versions.json是自动生成的，其中可以指定outputdir，但依赖的是pyformat，无法嵌入字典替换 多版本 Sphinx 文档管理实践（2025年9月23日） 背景 之前项目一直采用 sphinx_multiversion 来做多版本文档... ]]></description>
+    <pubDate>Thu, 22 May 2025 01:55:07 GMT</pubDate>
   </item>
     </channel>
   </rss>
