@@ -1,5 +1,4 @@
 {
   "template": "_template/tech_note",
-  "folder": "source/_posts/pool",
-  "autorun": true
+  "folder": "source/_posts/pool"
 }
