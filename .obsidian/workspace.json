@@ -11,10 +11,14 @@
             "id": "7859d03f3c517ce5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -185,29 +189,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b07897dad62203b8",
+  "active": "7859d03f3c517ce5",
   "lastOpenFiles": [
-    "public/tags/index.html",
-    "public/tags/vscode.html",
-    "public/tags/reddit.html",
-    "public/tags/i18n.html",
-    "public/tags/yum.html",
-    "public/tags/笔记管理.html",
-    "public/tags/论文.html",
-    "public/tags/latex.html",
-    "public/tags/自然哲学的数学原理.html",
-    "public/tags/秋刀鱼-是大臣精讲.html",
+    "public/index.html",
+    "public/hello-world.html",
+    "public/postscript.js",
+    "public/prescript.js",
+    "public/index.css",
     "public/tags/英语兔语法学习笔记.html",
+    "public/tags/进程.html",
+    "public/tags/笔记管理.html",
+    "public/tags/软件工程.html",
+    "public/tags/论文.html",
+    "public/tags/自然哲学的数学原理.html",
+    "public/static/og-image.png",
+    "public/static/icon.png",
     "public/image/20250117是大臣E1p1.png",
     "public/image/20250108动词语气p5.png",
     "public/image/20250108动词语气p4.png",
-    "public/image/20250108动词语气p3.png",
     "public/image/20250108动词语气p2.png",
+    "public/image/20250108动词语气p3.png",
     "public/image/20250108动词语气p1.png",
     "public/image/20240906_3.jpg",
     "public/image/20240906_2.jpg",
-    "public/image/20240906_1.jpg",
-    "public/static/og-image.png",
     "content/archive.md",
     "content/index.md",
     "content/hello-world.md",

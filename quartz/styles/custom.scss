@@ -184,10 +184,23 @@ body[data-slug="index"] #quartz-body {
 }
 
 body[data-slug="index"] .sidebar,
-body[data-slug="index"] .page-header,
 body[data-slug="index"] .page-footer,
 body[data-slug="index"] footer,
 body[data-slug="index"] hr {
+  display: none;
+}
+
+body[data-slug="index"] .sidebar.left {
+  display: block;
+  position: fixed;
+  inset: 0 auto auto 0;
+  z-index: 4;
+  width: 100%;
+  height: 0;
+  padding: 0;
+}
+
+body[data-slug="index"] .page-header {
   display: none;
 }
 
@@ -216,19 +229,23 @@ body[data-slug="index"] .popover-hint {
 .home-stage {
   display: grid;
   place-items: center;
+  width: 100%;
   min-height: 100vh;
 }
 
 .fly-entry {
   color: var(--secondary);
-  font-size: clamp(3.6rem, 10vw, 8rem);
+  font-size: clamp(2.2rem, 6vw, 4.4rem);
   font-family: var(--bodyFont);
   font-weight: 300;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.035em;
   text-decoration: none;
-  border: 0;
-  background: transparent;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
   transition:
     color 260ms ease,
     letter-spacing 420ms ease,
@@ -239,10 +256,10 @@ body[data-slug="index"] .popover-hint {
 
 .fly-entry:hover {
   color: var(--dark);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.075em;
   opacity: 0.92;
   text-shadow: 0 1.2rem 3rem color-mix(in srgb, var(--secondary) 24%, transparent);
-  transform: translateY(-0.18rem);
+  transform: translateY(-0.12rem);
 }
 
 [saved-theme="dark"] .fly-entry:hover {
@@ -270,11 +287,13 @@ body[data-slug="index"] .popover-hint {
 .home-actions {
   position: fixed;
   top: clamp(1rem, 3vw, 2rem);
-  right: clamp(1rem, 3vw, 2rem);
+  left: 50%;
   z-index: 4;
   display: flex;
   align-items: center;
-  gap: 0.9rem;
+  justify-content: center;
+  gap: 1.1rem;
+  transform: translateX(-50%);
 }
 
 .home-action {

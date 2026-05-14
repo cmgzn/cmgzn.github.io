@@ -17,10 +17,6 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.HomeActions(),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
@@ -38,6 +34,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   left: [
+    Component.ConditionalRender({
+      component: Component.HomeActions(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.ConditionalRender({
       component: Component.PageTitle(),
       condition: (page) => page.fileData.slug !== "index",
