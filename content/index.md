@@ -2,7 +2,8 @@
 title: Lil b
 ---
 
-这里是我的公开笔记与技术记录。
+<div class="home-stage">
+  <a class="fly-entry" href="./archive" aria-label="Enter archive">fly</a>
+</div>
 
-从左侧目录进入不同主题，也可以直接使用搜索。
-
+<p class="home-motto">What are you waiting for? Tell me what you want.</p>

@@ -1,3 +1,362 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+body {
+  background:
+    linear-gradient(90deg, rgba(123, 38, 52, 0.035) 0 1px, transparent 1px 100%),
+    linear-gradient(180deg, rgba(123, 38, 52, 0.025) 0 1px, transparent 1px 100%),
+    var(--light);
+  background-size: 36px 36px, 36px 36px, auto;
+}
+
+[saved-theme="dark"] body {
+  background:
+    radial-gradient(circle at 22% 0%, rgba(123, 38, 52, 0.16), transparent 34rem),
+    linear-gradient(90deg, rgba(242, 236, 228, 0.025) 0 1px, transparent 1px 100%),
+    linear-gradient(180deg, rgba(242, 236, 228, 0.018) 0 1px, transparent 1px 100%),
+    var(--light);
+  background-size: auto, 38px 38px, 38px 38px, auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page-title a {
+  letter-spacing: 0;
+  font-weight: 300;
+}
+
+body {
+  font-weight: 300;
+}
+
+strong,
+b {
+  font-weight: 500;
+}
+
+article {
+  font-size: 1.02rem;
+  line-height: 1.92;
+}
+
+.article-title {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 300;
+  line-height: 1.16;
+  margin-bottom: 0.7rem;
+}
+
+article h1 {
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  font-weight: 300;
+}
+
+article h2 {
+  font-size: 1.32rem;
+  font-weight: 300;
+}
+
+article h3 {
+  font-size: 1.08rem;
+  font-weight: 400;
+}
+
+.content-meta,
+.tags,
+.breadcrumb-container {
+  font-family: var(--bodyFont);
+  font-weight: 300;
+  opacity: 0.78;
+}
+
+article h1 {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.45rem;
+}
+
+article blockquote {
+  border-left: 2px solid var(--secondary);
+  background: color-mix(in srgb, var(--highlight) 62%, transparent);
+  padding: 0.4rem 1rem;
+}
+
+a.internal {
+  border-bottom: 1px solid color-mix(in srgb, var(--secondary) 34%, transparent);
+}
+
+pre {
+  border: 1px solid var(--lightgray);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--lightgray);
+}
+
+.page-title {
+  font-weight: 300;
+}
+
+.explorer,
+.toc,
+.backlinks,
+.graph {
+  border-color: color-mix(in srgb, var(--lightgray) 82%, transparent);
+}
+
+button,
+input,
+.search > .search-button {
+  border-radius: 3px;
+}
+
+.tag-link {
+  color: var(--tertiary);
+}
+
+@media all and (min-width: 1200px) {
+  body:not([data-slug="index"]) #quartz-body {
+    grid-template-columns: 300px minmax(34rem, 46rem) 300px;
+  }
+
+  body:not([data-slug="index"]) .center {
+    max-width: 46rem;
+  }
+
+  body:not([data-slug="index"]) .sidebar {
+    opacity: 0.06;
+    filter: blur(0.35px);
+    transition:
+      opacity 260ms ease,
+      filter 260ms ease,
+      transform 260ms ease;
+  }
+
+  body:not([data-slug="index"]) .sidebar.left {
+    transform: translateX(-5.8rem);
+  }
+
+  body:not([data-slug="index"]) .sidebar.right {
+    transform: translateX(5.8rem);
+  }
+
+  body:not([data-slug="index"]) .sidebar:hover,
+  body:not([data-slug="index"]) .sidebar:focus-within {
+    opacity: 1;
+    filter: none;
+    transform: translateX(0);
+  }
+
+  body:not([data-slug="index"]) .sidebar::before {
+    content: "";
+    position: fixed;
+    inset-block: 0;
+    width: 7.5rem;
+  }
+
+  body:not([data-slug="index"]) .sidebar.left::before {
+    left: 0;
+  }
+
+  body:not([data-slug="index"]) .sidebar.right::before {
+    right: 0;
+  }
+}
+
+body[data-slug="index"] {
+  background: #f2eee6;
+}
+
+[saved-theme="dark"] body[data-slug="index"] {
+  background: #0d0c0b;
+}
+
+body[data-slug="index"] #quartz-body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "grid-center";
+  padding: 0;
+}
+
+body[data-slug="index"] .sidebar,
+body[data-slug="index"] .page-header,
+body[data-slug="index"] .page-footer,
+body[data-slug="index"] footer,
+body[data-slug="index"] hr {
+  display: none;
+}
+
+body[data-slug="index"] .center {
+  grid-area: grid-center;
+  min-width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+body[data-slug="index"] article {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+body[data-slug="index"] article p {
+  margin: 0;
+}
+
+body[data-slug="index"] .popover-hint {
+  width: 100%;
+}
+
+.home-stage {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.fly-entry {
+  color: var(--secondary);
+  font-size: clamp(3.6rem, 10vw, 8rem);
+  font-family: var(--bodyFont);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: 0;
+  background: transparent;
+  transition:
+    color 260ms ease,
+    letter-spacing 420ms ease,
+    opacity 260ms ease,
+    text-shadow 420ms ease,
+    transform 420ms ease;
+}
+
+.fly-entry:hover {
+  color: var(--dark);
+  letter-spacing: 0.08em;
+  opacity: 0.92;
+  text-shadow: 0 1.2rem 3rem color-mix(in srgb, var(--secondary) 24%, transparent);
+  transform: translateY(-0.18rem);
+}
+
+[saved-theme="dark"] .fly-entry:hover {
+  color: var(--dark);
+  text-shadow: 0 1.4rem 3.5rem rgba(199, 122, 135, 0.34);
+}
+
+.home-motto {
+  position: fixed;
+  left: 50%;
+  bottom: clamp(1.4rem, 4vw, 2.8rem);
+  z-index: 2;
+  width: min(90vw, 42rem);
+  transform: translateX(-50%);
+  color: color-mix(in srgb, var(--darkgray) 66%, transparent);
+  font-family: var(--bodyFont);
+  font-size: clamp(0.72rem, 1.5vw, 0.86rem);
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  pointer-events: none;
+}
+
+.home-actions {
+  position: fixed;
+  top: clamp(1rem, 3vw, 2rem);
+  right: clamp(1rem, 3vw, 2rem);
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.home-action {
+  display: inline-grid;
+  place-items: center;
+  width: 1.45rem;
+  height: 1.45rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: color-mix(in srgb, var(--darkgray) 70%, transparent);
+  cursor: pointer;
+  opacity: 0.78;
+  transition:
+    color 220ms ease,
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.home-action:hover {
+  color: var(--secondary);
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.home-action svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.home-actions .darkmode {
+  position: relative;
+  width: 1.45rem;
+  height: 1.45rem;
+  flex-shrink: 0;
+}
+
+.home-actions .darkmode svg {
+  position: absolute;
+  inset: 0.15rem;
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.archive-page {
+  margin-top: 1.4rem;
+}
+
+.archive-index {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem 1rem;
+  margin-top: 2rem;
+}
+
+.archive-index a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3rem;
+  padding: 0 0.15rem;
+  border-bottom: 1px solid var(--lightgray);
+  color: var(--darkgray);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.archive-index a:hover {
+  color: var(--secondary);
+  border-bottom-color: var(--secondary);
+}
+
+.archive-index span {
+  order: 2;
+  color: var(--gray);
+  font-family: var(--codeFont);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+@media all and (max-width: 800px) {
+  .archive-index {
+    grid-template-columns: 1fr;
+  }
+}
